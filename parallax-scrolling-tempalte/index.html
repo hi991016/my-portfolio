@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/img/play.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Parallax</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <a href="#" class="nav_logo">AVICII</a>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu-alt-right' ></i>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Explore</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Tour</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Discover</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <div class="home">
+        <div class="parallax home_parallax home_parallax-img1" data-rellax-speed="-9"></div>
+        <div class="parallax home_parallax home_parallax-img2" data-rellax-speed="-7"></div>
+        <div class="parallax home_parallax home_parallax-img3" data-rellax-speed="-6"></div>
+        <div class="parallax home_parallax home_parallax-img4" data-rellax-speed="-3"></div>
+
+        <h1 class="parallax home_title" data-rellax-speed="-6">Avicii</h1>
+        <span class="parallax home_subtitle" data-rellax-speed="-5">Explore</span>
+
+        <div class="home_scroll">
+            <a href="#section"><i class="bx bx-mouse"></i></a>
+        </div>
+    </div>
+
+    <!-- SECTION -->
+    <section class="l-section" id="section">
+        <div class="section">
+            <div class="section_data">
+                <h2 class="section_title">Avicii Biography</h2>
+                <p class="section_text">
+                    Tim Bergling, known by his stage name Avicii, 
+                    was a Swedish DJ, remixer, record producer, musician, and songwriter. 
+                    At the age of 16, Bergling began posting his remixes on electronic music forums, 
+                    which led to his first record deal. He rose to prominence in 2011 with his single "Levels".
+                </p>
+            </div>
+
+            <img src="./assets/img/tim.jpg" alt="" class="section_img">
+        </div>
+    </section>
+    
+    <!-- RELLAX MIN JS-->
+    <script src="./assets/js/rellax.min.js"></script>
+    <!-- GREENSOCK GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- MAIN JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

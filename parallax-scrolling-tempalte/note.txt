@@ -1,0 +1,8 @@
+https://dixonandmoe.com/rellax/ (script on top)
+https://greensock.com/
+https://scrollrevealjs.org/
+
+sort
+1. script src=rellax
+2. script src=gsap
+3. script src=scroll
