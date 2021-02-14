@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- BOX-ICON -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Toast Message</title>
+</head>
+<body>
+    <!-- TOAST MESSAGE -->
+    <div id="toast">
+        <!-- SUCCESS
+        <div class="toast toast--success">
+            <div class="toast__icon">
+                <i class='bx bxs-check-circle'></i>
+            </div>
+            <div class="toast__message">
+                <div class="toast__title">Success</div>
+                <div class="toast__desc">Anywone with access can view your invited visitors.</div>
+            </div>
+            <div class="toast__close">
+                <i class='bx bx-x'></i>
+            </div>
+        </div> -->
+    </div>
+
+    <div>
+        <div onclick="showSuccessToast();" class="btn btn--success">Show success toast</div>
+        <div onclick="showInfoToast();" class="btn btn--info">Show info toast</div>
+        <div onclick="showWarningToast();" class="btn btn--warning">Show warning toast</div>
+    </div>
+    <!-- JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

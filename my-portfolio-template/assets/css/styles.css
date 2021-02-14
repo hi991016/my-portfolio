@@ -373,7 +373,7 @@ img {
     border-radius: .25rem;;
 }
 
-.skills_name:hover {
+.skills_name:hover{
     background-color: var(--first-color);
     color: var(--white-color);
     transition: .5s;
@@ -472,11 +472,13 @@ img {
 
 .footer_link:hover {
     color: var(--first-color);
+    transition: .5s;
 }
 
 .footer_social {
     font-size: 1.4rem;
     margin-right: var(--mb-3);
+    transition: .5s;
 }
 
 .footer_social:hover {
