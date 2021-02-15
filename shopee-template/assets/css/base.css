@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    /* COLOR */
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #ee4d2d;
+    
+    /* TYPE */
+    --body-font: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* mặc định fontsize 16px - 62.5% = 10px -> 12px = 1.2rem, 16 = 1.6rem*/
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: var(--body-font);
+    box-sizing: border-box;
+}
+
+
+.bd-grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,249 @@
+.header {
+    height: 120px;
+    background-color: #ff6433;
+}
+
+/* NAV */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__list {
+    /* mặc dịnh nó đã padding left 40 */
+    padding-left: 0;
+}
+.nav__item, .nav__link {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    font-weight: 300;
+}
+
+.nav__item {
+    margin: 0 8px;
+    position: relative;
+    min-height: 18px;
+}
+
+.nav__item--line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 2px solid #fb9086;
+    height: 16px;
+    right: -11px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.nav__item:hover, .nav__link:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.nav__link--social {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.nav__link--social-icon {
+    font-size: 1.7rem;
+    margin: 0 5px;
+}
+
+.nav__item, 
+.nav__link,
+.nav__link--social {
+    display: inline-flex;
+    align-items: center;
+}
+
+.no-pointer {
+    cursor: text;
+    color: #fff;
+}
+
+/* QR CODE */
+.nav__qr {
+    width: 185px;
+    background-color: var(--white-color);
+    position: absolute;
+    left: 0;
+    top: 180%;
+    padding: 5px;
+    border-radius: 2px;
+    display: none;
+    animation: fadeIn ease-in 0.3s;
+}
+
+/* DÙNG NÓ LÀM CẦU NỐI HOVER */
+.nav__qr::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    top: -20px;
+    /* background-color: #000; */
+}
+
+.nav__qr-img {
+    width: 100%;
+}
+
+.nav__qr-apps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.nav__qr-download {
+    height: 16px;
+}
+
+.nav__qr-link-1 {
+    margin-left: 0px;
+}
+
+.nav__qr-link-2 {
+    margin-right: 8px;
+}
+
+.nav__item--hoverqr:hover .nav__qr {
+    display: block;
+}
+
+/* NOTIFICATION */
+.nav__notification {
+    position: absolute;
+    top: 180%;
+    right: 0;
+    width: 404px;
+    border: 1px solid #d3d3d3;
+    background-color: var(--white-color);
+    cursor: default;
+    animation: navNotify ease-in 0.2s;
+    --webkit-anmation: navNotify ease-in 0.2s;
+    --ms-animation: navNotify ease-in 0.2s;
+    -o-animation: navNotify ease-in 0.2s;
+    -moz-animation: navNotify ease-in 0.2s;
+    /* định cái tâm của scale*/
+    transform-origin: calc(100% - 20px) top; 
+    /* thuộc tính gì sẽ thay đổi */
+    will-change: opacity, transform;
+    display: none;
+}
+
+.nav__notification::before {
+    content: "";
+    border-width: 20px 27px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 15px;
+    top: -30px;
+}
+
+.nav__notification::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    width: 100%;
+    height: 20px;
+    /* background-color: #000; */
+}
+
+@keyframes navNotify {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.nav__notification-header {
+    height: 40px;
+    background-color: var(--white-color);
+}
+.nav__notification-header h3 {
+    color: #bbb;
+    margin: 0 0 0 12px;
+    font-size: 1.4rem;
+    line-height: 40px;
+    font-weight: 300;
+    user-select: none;
+}
+.nav__notification-list {
+    padding-left: 0;
+}
+.nav__notification-item {
+    display: flex;
+}
+.nav__notification-link {
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+}
+.nav__notification-img {
+    width: 48px;
+    object-fit: contain;
+}
+.nav__notification-info {
+    margin-left: 12px;
+}
+.nav__notification-name {
+    display: block;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 1.8rem;
+    margin-bottom: 4px;
+}
+.nav__notification-desc {
+    display: block;
+    font-size: 1.2rem;
+    color: #756f6e;
+    line-height: 1.8rem;
+}
+
+.nav__notification-item--read {
+    background-color: rgba(238, 75, 43, 0.08);
+}
+
+.nav__notification-item:hover {
+    background-color: #f7f7f7;
+}
+
+.nav__notification-footer {
+    display: flex;
+}
+
+/* canh giữa dựa trên display flex */
+/* .nav__notification-footer-btn {
+    color: var(--text-color);
+    padding: 14px 20px;
+    margin: auto; 
+    font-weight: 400;
+} */
+
+.nav__notification-footer-btn {
+    color: var(--text-color);
+    padding: 14px 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.nav__notification-footer-btn:hover {
+    background-color: #f7f7f7;
+}
+
+.nav__item--hovernotify:hover .nav__notification {
+    display: block;
+}
