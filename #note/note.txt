@@ -1,4 +1,18 @@
+/* FRAMEWORK
 https://scrollrevealjs.org/
+https://tympanus.net/Tutorials/CaptionHoverEffects/index.html
+
+/* ICONS
 https://boxicons.com/
+
+/* ILLSTRATION
 https://icons8.com/l/christmas-3d/
+https://www.manypixels.co/gallery
+https://undraw.co/illustrations
+
+/* FLEXBOX
 https://codepen.io/enxaneta/full/adLPwv/
+https://viblo.asia/p/giai-thich-hoat-dong-cua-flexbox-thong-qua-anh-gif-ByEZkp14lQ0
+
+/* GRID
+https://codepen.io/ng-ngc-sn-the-bashful/pen/dyovNrP
