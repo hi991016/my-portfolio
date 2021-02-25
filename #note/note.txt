@@ -17,3 +17,6 @@ https://viblo.asia/p/giai-thich-hoat-dong-cua-flexbox-thong-qua-anh-gif-ByEZkp14
 
 /* GRID
 https://codepen.io/ng-ngc-sn-the-bashful/pen/dyovNrP
+
+/* HTML2PDF
+https://ekoopmans.github.io/html2pdf.js/
