@@ -138,4 +138,45 @@ resumeButton.addEventListener('click', () => {
 })
 
 // CURSOR
+const cursor = document.querySelector("#cursor");
+anchor = document.querySelectorAll(".section-title, .home__title");
+
+document.addEventListener('mousemove', (e) => {
+    let x = e.clientX,
+        y = e.clientY;
+
+    cursor.style.left = `${x}px`;
+    cursor.style.top = `${y}px`;
+});
+
+anchor.forEach(anc => {
+    anc.addEventListener("mouseover", () => {
+        cursor.style.transform = "scale(5)";
+    });
+    anc.addEventListener("mouseleave", () => {
+        cursor.style.transform = "";
+    })
+})
+
+const link = document.querySelectorAll('section > .hover-this');
+
+const animateit = function (e) {
+    const span = this.querySelector('span');
+    const { offsetX: x, offsetY: y } = e,
+    { offsetWidth: width, offsetHeight: height } = this,
+
+    move = 25,
+    xMove = x / width * (move * 2) - move,
+    yMove = y / height * (move * 2) - move;
+
+    span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+
+    if (e.type === 'mouseleave') span.style.transform = '';
+};
+
+link.forEach(b => b.addEventListener('mousemove', animateit));
+link.forEach(b => b.addEventListener('mouseleave', animateit));
+
+
+
 
