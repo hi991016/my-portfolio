@@ -53,7 +53,6 @@ body {
     background-color: var(--body-color);
     color: var(--text-color);
     cursor: none;
-    
 }
 
 h1,h2,h3,ul,p {
@@ -81,7 +80,7 @@ img {
 
 /* LAYOUT */
 .bd-container {
-    max-width: 968px;
+    max-width: 1024px;
     width: calc(100% - var(--header-height));
     margin-left: var(--mb-3);
     margin-right: var(--mb-3);
@@ -182,11 +181,44 @@ img {
     left: 15px;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.5s ease;
 }
 
 .text-tag__img {
     border-radius: 10px;
+}
+
+/* OVERLAY */
+.overlay {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    top: 0%;
+}
+.overlay h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 12px;
+    line-height: 3rem;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #555;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: transparent;
 }
 /* VARIABLE DARK THEME */
 body.dark-theme {
@@ -330,7 +362,7 @@ body.scale-cv {
     align-items: center;
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1024px) {
     .nav__menu {
         position: fixed;
         /* bottom: var(--header-height); */
@@ -343,6 +375,9 @@ body.scale-cv {
         border-radius: 1rem 1rem 0 0;
         z-index: var(--z-fixed);
         transition: .5s;
+    }
+    .generate-pdf {
+        display: none;
     }
 }
 
@@ -649,7 +684,7 @@ body.scale-cv {
 
 /* FOOTER */
 .footer {
-    padding-bottom: 8rem;
+    padding-bottom: 7rem;
     display: none;
 }
 
@@ -662,11 +697,14 @@ body.scale-cv {
     }
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 1024px) {
     body {
         margin: 3rem 0;
+        /* background-image: url('../img/bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
     }
-
     .bd-container {
         margin-left: auto;
         margin-right: auto;

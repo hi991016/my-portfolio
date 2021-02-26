@@ -139,7 +139,7 @@ resumeButton.addEventListener('click', () => {
 
 // CURSOR
 const cursor = document.querySelector("#cursor");
-anchor = document.querySelectorAll(".section-title, .home__title, .project__website");
+anchor = document.querySelectorAll(".section-title, .home__title, .project__website, .change-theme, .generate-pdf");
 
 document.addEventListener('mousemove', (e) => {
     let x = e.clientX,
@@ -177,7 +177,6 @@ const animateit = function (e) {
 link.forEach(b => b.addEventListener('mousemove', animateit));
 link.forEach(b => b.addEventListener('mouseleave', animateit));
 
-
 // HOVER IMAGE
 var getImage1 = document.getElementsByClassName("img-container") [0];
 var getImage2 = document.getElementsByClassName("img-container") [1];
@@ -187,11 +186,111 @@ var getImage4 = document.getElementsByClassName("img-container") [3];
 function imageIn(img) {
     img.style.opacity = "1";
     img.style.visibility = "visible";
-    img.style.transition = "opacity .5s";
+    img.style.transition = "opacity 0.5s ease-in";
 }
 
 function imageOut(img) {
     img.style.opacity = "0";
     img.style.visibility = "hidden";
-    img.style.transition = "opacity .5s";
+    img.style.transition = "opacity 0.5s ease-in";
 }
+
+// OVERLAY
+
+TweenMax.to(".overlay h1", 2.5, {
+    opacity: 0,
+    y: -60,
+    ease: Expo.easeInOut
+})
+TweenMax.to(".overlay", 2, {
+    delay: 1,
+    top: "-100%",
+    ease: Expo.easeInOut
+})
+
+TweenMax.from(".section-title", 2.5, {
+    delay: 1,
+    opacity: 0,
+    y: 20,
+    ease: Expo.easeInOut
+})
+
+TweenMax.from(".home__data img", 2, {
+    delay: 1.5,
+    opacity: 0,
+    x: 40,
+    ease: Expo.easeInOut
+})
+
+TweenMax.staggerFrom(".social__container a", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+
+TweenMax.staggerFrom(".profile p", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+
+//home address
+TweenMax.staggerFrom(".home__address span", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".home__address a", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+
+TweenMax.staggerFrom(".home__data h1", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".home__data h3", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+
+//project data
+TweenMax.staggerFrom(".project__data h3", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".project__data span", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".project__data p", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".project__data a", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".project__time span", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+
+//Education
+TweenMax.staggerFrom(".education__time span", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".education__data h3", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".education__data span", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+
+//SKILLS
+TweenMax.staggerFrom(".skills__content span", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".skills__content ul li", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+
+//Content
+TweenMax.staggerFrom(".certificate__content", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".languages__content", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".interests__content", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+
+
+
