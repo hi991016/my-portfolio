@@ -120,22 +120,22 @@ img {
 /* CURSOR */
 #cursor {
     position: fixed;
-    width: 25px;
-    height: 25px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     background-color: #fff;
     transform: translate(-50%, -50%);
     pointer-events: none;
     mix-blend-mode: difference;
     transform-origin: 70% 70%;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.4s ease-in-out;
     z-index: var(--z-fixed);
 
     animation: borderAnim 4s linear infinite;
     animation-name: none;
 }
 
-.section-title:hover ~ .cursor {
+.section-title:hover ~ #cursor {
     transform: scale(5)
 }
 
@@ -148,7 +148,7 @@ img {
     transition: transform 0.1s linear;
 }
 
-.hover-this:hover ~ .cursor {
+.hover-this:hover ~ #cursor {
     transform: translate(-50%, -50%) scale(8);
 }
 
@@ -166,6 +166,28 @@ img {
     }
 }
 
+/* HOVER IMAGE */
+.text-tag {
+    height: calc(var(--header-height) - 1.5rem);
+}
+.text-tag:hover > a {
+    position: relative;
+    z-index: 5;
+}
+
+.img-container {
+    position: relative;
+    z-index: 1;
+    top: -230px;
+    left: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+
+.text-tag__img {
+    border-radius: 10px;
+}
 /* VARIABLE DARK THEME */
 body.dark-theme {
     /* COLOR */
@@ -413,7 +435,9 @@ body.scale-cv {
     font-size: var(--small-font-size);
     color: var(--text-color);
 }
-
+.home__information:hover {
+    color: var(--title-color);
+}
 .home__icon {
     font-size: 1.2rem;
     margin-right: .25rem;
@@ -517,6 +541,7 @@ body.scale-cv {
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
+    transition: 0.4s;
 }
 
 .education__year {

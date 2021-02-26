@@ -139,7 +139,7 @@ resumeButton.addEventListener('click', () => {
 
 // CURSOR
 const cursor = document.querySelector("#cursor");
-anchor = document.querySelectorAll(".section-title, .home__title");
+anchor = document.querySelectorAll(".section-title, .home__title, .project__website");
 
 document.addEventListener('mousemove', (e) => {
     let x = e.clientX,
@@ -151,7 +151,7 @@ document.addEventListener('mousemove', (e) => {
 
 anchor.forEach(anc => {
     anc.addEventListener("mouseover", () => {
-        cursor.style.transform = "scale(5)";
+        cursor.style.transform = "scale(6)";
     });
     anc.addEventListener("mouseleave", () => {
         cursor.style.transform = "";
@@ -178,5 +178,20 @@ link.forEach(b => b.addEventListener('mousemove', animateit));
 link.forEach(b => b.addEventListener('mouseleave', animateit));
 
 
+// HOVER IMAGE
+var getImage1 = document.getElementsByClassName("img-container") [0];
+var getImage2 = document.getElementsByClassName("img-container") [1];
+var getImage3 = document.getElementsByClassName("img-container") [2];
+var getImage4 = document.getElementsByClassName("img-container") [3];
 
+function imageIn(img) {
+    img.style.opacity = "1";
+    img.style.visibility = "visible";
+    img.style.transition = "opacity .5s";
+}
 
+function imageOut(img) {
+    img.style.opacity = "0";
+    img.style.visibility = "hidden";
+    img.style.transition = "opacity .5s";
+}
