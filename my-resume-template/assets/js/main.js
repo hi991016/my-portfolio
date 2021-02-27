@@ -204,7 +204,7 @@ TweenMax.to(".overlay h1", 2.5, {
 })
 TweenMax.to(".overlay", 2, {
     delay: 1,
-    top: "-100%",
+    top: "-150%",
     ease: Expo.easeInOut
 })
 
@@ -234,6 +234,7 @@ TweenMax.staggerFrom(".profile p", 1, {
 TweenMax.staggerFrom(".home__address span", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
+
 TweenMax.staggerFrom(".home__address a", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
@@ -241,6 +242,7 @@ TweenMax.staggerFrom(".home__address a", 1, {
 TweenMax.staggerFrom(".home__data h1", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
+
 TweenMax.staggerFrom(".home__data h3", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
@@ -258,7 +260,11 @@ TweenMax.staggerFrom(".project__data p", 1, {
 TweenMax.staggerFrom(".project__data a", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
-TweenMax.staggerFrom(".project__time span", 1, {
+
+TweenMax.staggerFrom(".project__rounder", 1, {
+    delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".project__line", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
 
@@ -266,9 +272,11 @@ TweenMax.staggerFrom(".project__time span", 1, {
 TweenMax.staggerFrom(".education__time span", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
+
 TweenMax.staggerFrom(".education__data h3", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
+
 TweenMax.staggerFrom(".education__data span", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
@@ -277,6 +285,7 @@ TweenMax.staggerFrom(".education__data span", 1, {
 TweenMax.staggerFrom(".skills__content span", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
+
 TweenMax.staggerFrom(".skills__content ul li", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
@@ -285,9 +294,11 @@ TweenMax.staggerFrom(".skills__content ul li", 1, {
 TweenMax.staggerFrom(".certificate__content", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
+
 TweenMax.staggerFrom(".languages__content", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
+
 TweenMax.staggerFrom(".interests__content", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
