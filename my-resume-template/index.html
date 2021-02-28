@@ -7,6 +7,9 @@
 
     <!-- FAVICON -->
     <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./assets/js/jquery.main.js"></script>
     <!-- BOXICONS -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <!-- GREENSOCK -->
@@ -17,6 +20,7 @@
     <title>Phu Nguyen - Creative Front-End Developer</title>
 </head>
 <body>
+    <!-- class="scale-cv" -->
     <!-- CUSTOM CURSOR -->
     <div id="cursor"></div>
 
@@ -25,7 +29,14 @@
         <h1 class="overlay__title" data-text="HI! I'M PHU">HI! I'M PHU</h1>
     </div>
 
-    <!-- class="scale-cv" -->
+    <!-- SHOW BIG IMAGE -->
+    <div id="bigImage" onclick="closeImage()">
+        <div class="close">
+            <div class="line"></div>
+        </div>
+        <img src="./assets/img/profile.jpg" alt="">
+    </div>
+
     <!-- HEADER -->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
@@ -91,7 +102,10 @@
                 <section class="home" id="home">
                     <div class="home__container section bd-grid">
                         <div class="home__data bd-grid">
-                            <img src="./assets/img/profile.jpg" alt="" class="home__img">
+                            <div class="home__image-effect">
+                                <img src="./assets/img/profile.jpg" alt="" class="home__img">
+                            </div>
+                            
 
                             <h1 class="home__title" data-text="PHU NGUYEN"><b>PHU NGUYEN</b></h1>
                             <h3 class="home__profession">Front-End Developer</h3>
@@ -277,7 +291,7 @@
                                 <p class="project__description">
                                     Health Info is an application on Mobile 
                                     that allows mobile users to use their device as a tool 
-                                    to record their training route (React Hook, React Native, Google Fit).
+                                    to record their training route (React Native, React Hook, Google Fit).
                                 </p>
 
                                 <div class="text-tag">
@@ -419,7 +433,7 @@
                 </section>
 
                 <section class="interests section">
-                    <h2 class="footer"></h2>
+                    <div class="footer"></div>
                 </section>
             </div>
         </div>

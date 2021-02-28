@@ -128,7 +128,7 @@ img {
     mix-blend-mode: difference;
     transform-origin: 70% 70%;
     transition: transform 0.4s ease-in-out;
-    z-index: var(--z-fixed);
+    z-index: 9999;
 
     animation: borderAnim 4s linear infinite;
     animation-name: none;
@@ -502,6 +502,52 @@ body.scale-cv {
     font-size: var(--h1-font-size);
 }
 
+/* SHOW BIG IMAGE AVATAR */
+#bigImage {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    display: none;
+}
+
+#bigImage img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 300px;
+}
+.close {
+    height: 40px;
+    width: 45px;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    display: none;
+}
+.line {
+    height: 40px;
+    width: 5px;
+    background-color: white;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    margin-left: 20px;
+}
+.line::before {
+    content: '';
+    height: 40px;
+    width: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+    position: absolute;
+}
+
 /* GLICH */
 .home__title:before, .home__title:after {
     position: absolute;
@@ -717,24 +763,6 @@ body.scale-cv {
     margin-bottom: var(--mb-1);
 }
 
-/* REFERENCES */
-.references__content {
-    gap: .25rem;
-}
-
-.references__subtitle {
-    color: var(--text-color-light);
-}
-
-.references__subtitle,
-.references__contact {
-    font-size: var(--smaller-font-size);
-}
-
-.references__title {
-    font-size: var(--h3-font-size);
-}
-
 /* INTERESTS */
 .interests__container {
     grid-template-columns: repeat(3, 1fr);
@@ -876,5 +904,26 @@ body.scale-cv {
     }
     #cursor {
         display: block;
+    }
+
+    /* SHOW BIG IMAGE */
+    #bigImage img {
+        width: 500px;
+        height: 500px;
+    }
+    .close {
+        display: block;
+    }
+
+    /* Effect Avatar */
+    .home__image-effect .home__img {
+        -webkit-transition: box-shadow 0.5s;
+        -moz-transition: box-shadow 0.5s;
+        transition: box-shadow 0.5s;
+    }
+    .home__image-effect .home__img:hover {
+        padding: 5px;
+        box-shadow: 0 0 0 5.5px var(--title-color);
+        transition: all 0.3s ease-in-out;
     }
 }
