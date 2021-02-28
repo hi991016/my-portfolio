@@ -1,5 +1,6 @@
 /* GOOGLE FONT - POPPINS REGULAR 400 - MEDIUM 500 - SEMI BOLD 600*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* VARIABLE CSS */
 :root {
@@ -257,6 +258,7 @@ img {
 ::-webkit-scrollbar {
     width: 6px;
     background: transparent;
+    display: none;
 }
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
@@ -512,6 +514,7 @@ body.scale-cv {
     left: 0;
     z-index: var(--z-fixed);
     display: none;
+    /* display: none; */
 }
 
 #bigImage img {
@@ -519,8 +522,8 @@ body.scale-cv {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 300px;
     width: 300px;
+    height: 300px;
 }
 .close {
     height: 40px;
@@ -546,6 +549,23 @@ body.scale-cv {
     border-radius: 10px;
     transform: rotate(-90deg);
     position: absolute;
+}
+
+/* HOVER BIGIMAGE EFFETS */
+.hero-title {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: var(--z-fixed);
+    font-size: 75px;
+    font-family: "Anton";
+    display: none;
+}
+.hero-title .letter {
+    display: inline-block;
+    opacity: 0;
 }
 
 /* GLICH */
@@ -925,5 +945,9 @@ body.scale-cv {
         padding: 5px;
         box-shadow: 0 0 0 5.5px var(--title-color);
         transition: all 0.3s ease-in-out;
+    }
+
+    .hero-title {
+        display: block;
     }
 }
