@@ -1,0 +1,43 @@
+
+/* FRAMEWORK
+https://scrollrevealjs.org/
+
+/* ANIMATION */
+GreenSock (GSAP - TweenMax)
+https://threejs.org/
+locomotive (https://codepen.io/ebinabo/pen/WNwjEaL) 
+Glitch 
+Mix-blend-mode
+
+/* ICONS
+https://boxicons.com/
+
+/* EMMET */
+https://docs.emmet.io/cheat-sheet/
+
+/* ILLSTRATION
+https://icons8.com/l/christmas-3d/
+https://www.manypixels.co/gallery
+https://undraw.co/illustrations
+
+/* FLEXBOX
+https://codepen.io/enxaneta/full/adLPwv/
+https://viblo.asia/p/giai-thich-hoat-dong-cua-flexbox-thong-qua-anh-gif-ByEZkp14lQ0
+https://flexboxfroggy.com/
+
+/* GRID
+https://codepen.io/ng-ngc-sn-the-bashful/pen/dyovNrP
+Material Grid
+
+/* HTML2PDF
+https://ekoopmans.github.io/html2pdf.js/
+
+/* HOVER EFFECT */
+https://tympanus.net/Tutorials/CaptionHoverEffects/index.html
+
+/* VALIDATOR */
+https://codepen.io/ng-ngc-sn-the-bashful/pen/wvMNzKP
+https://www.youtube.com/watch?v=ZdvRm1bfGAk&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=81
+
+/* THREE DOT IN JS */
+https://medium.com/@hai213k57/three-dots-trong-javascript-c%C3%B3-%C3%BD-ngh%C4%A9a-g%C3%AC-873bd0570222
