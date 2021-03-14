@@ -28,6 +28,13 @@ https://flexboxfroggy.com/
 /* GRID
 https://codepen.io/ng-ngc-sn-the-bashful/pen/dyovNrP
 Material Grid
+https://viblo.asia/p/hoc-css-grid-trong-5-phut-1VgZv1NOKAw
+https://viblo.asia/p/chia-bo-cuc-layout-voi-css-grid-layout-WAyK8PdWKxX
+https://codelearn.io/sharing/flexbox-va-grid-trong-css3-phan-1
+https://codelearn.io/sharing/flexbox-va-grid-trong-css3-phan-2
+
+/* JAVASCRIPT (DOM) */
+https://thachpham.com/web-development/javascript/javascript-co-ban-hanh-trinh-cua-mot-anh-hung.html
 
 /* HTML2PDF
 https://ekoopmans.github.io/html2pdf.js/
