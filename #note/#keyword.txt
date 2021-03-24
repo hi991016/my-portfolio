@@ -1,3 +1,5 @@
+/*TEXT OUTLINE */
+https://codepen.io/hi991016/pen/poNXyKE
 
 /* FRAMEWORK
 https://scrollrevealjs.org/

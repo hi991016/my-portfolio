@@ -10,3 +10,7 @@ $(document).ready(function() {
     })
 })
 
+// CLOSE BIG IMAGE
+function closeImage() {
+    $("#bigImage").fadeOut();
+}

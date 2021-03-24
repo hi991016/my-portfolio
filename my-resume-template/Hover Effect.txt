@@ -1,0 +1,7 @@
+opacity: 0
+visibility: hidden
+
+.bigImage.css {
+	opacity: 1
+	visibility: visible
+}

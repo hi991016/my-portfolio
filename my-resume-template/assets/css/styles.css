@@ -426,17 +426,16 @@ body.scale-cv {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    display: none;
     /* display: none; */
 }
-
+/* #bigImage img */
 #bigImage img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
 }
 .close {
     height: 40px;
@@ -962,7 +961,6 @@ body.scale-cv {
         box-shadow: 0 0 0 5.5px var(--title-color);
         transition: all 0.3s ease-in-out;
     }
-
     .hero-title {
         display: block;
     }
