@@ -1,4 +1,28 @@
-/*TEXT OUTLINE */
+/* FRONT-END CHEATSHEAT*/
+https://topdev.vn/blog/frontend-cheatsheet/
+https://devhints.io/react
+https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf
+https://devhints.io/sass
+
+/* REACT - BOILERPLATE - LIFECYCLE */
+https://viblo.asia/p/cung-tim-hieu-ve-react-boilerplate-YWOZrwbPlQ0
+https://viblo.asia/p/react-boilerplate-cau-truc-thu-muc-hoan-hao-cho-mot-du-an-reactjs-ByEZk6P4KQ0
+
+https://viblo.asia/p/lifecycle-component-trong-reactjs-gGJ59jzxKX2
+https://vuilaptrinh.com/2017-10-20-react-lifecycle-la-gi/
+
+/* REDUX - SAGA */
+https://viblo.asia/p/vai-phut-ngau-hung-voi-redux-trong-reactjs-1VgZv4N75Aw
+https://viblo.asia/p/co-ban-ve-redux-saga-gDVK22x2KLj
+
+/* BEM */
+https://topdev.vn/blog/meo-quy-uoc-ten-cho-css-giup-ban-rut-ngan-23-thoi-gian-khi-debug/
+
+/* GATSBY */
+https://hocwordpress.vn/huong-dan-cai-dat-va-lam-quen-voi-gatsby
+https://topdev.vn/blog/gatsby-js-cach-thiet-lap-va-su-dung-react-static-site-generator/
+
+/* TEXT OUTLINE */
 https://codepen.io/hi991016/pen/poNXyKE
 
 /* FRAMEWORK
