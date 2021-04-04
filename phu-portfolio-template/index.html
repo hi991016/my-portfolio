@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- FONT -->
+    <link href="//db.onlinewebfonts.com/c/7980cc1889b6b0b264dc47cca659f7c2?family=Neue+Montreal" rel="stylesheet" type="text/css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- LOCOMOTIVE SCROLL -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+
+    <title>Phu Nguyen - Creative Front-End Developer</title>
+</head>
+<body id="js-scroll">
+    <div class="wrapper">
+        <!-- CUSTOM CURSOR -->
+        <div id="cursor">
+            <span class="more">
+                <!-- <h4>View</h4> -->
+                <img src="./assets/img/view.png" alt="" width="800" height="800">
+            </span>
+        </div>
+
+        <header class="l-header" id="header">
+            <nav class="menu bd-container">
+                <div class="menu__logo hover-this" onclick="location.href='index.html'">
+                    <a href="index.html">
+                        <span class="span-hover">
+                            <img src="assets/img/home.png" alt="" width="60" height="60">
+                        </span>
+                    </a>
+                </div>
+
+                <div class="menu__link hover-this" onclick="location.href='about.html'">
+                    <a href="about.html">
+                        <span class="span-hover">
+                            <img src="assets/img/info.png" alt="" width="55" height="55"> 
+                        <span>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main" data-scroll-section>
+            <!-- HOME -->
+            <section class="home" id="home">
+                <div class="home__container bd-container">
+                    <div class="home__data hover-this">
+                        <span 
+                            class="home__data--text"
+                            data-text="I'm a creative front-end developer.
+                            I love UI design and creating a polished &
+                            meaningful user project."
+                        >
+                            I'm a creative front-end developer.
+                            I love UI design and creating a polished &
+                            meaningful user project.
+                        </span>
+                    </div>
+                    
+                    <div class="scroll-down"></div>
+                </div>
+            </section>
+
+            <div class="whitespace"></div>
+
+            <!-- PROJECT -->
+            <section class="project bd-container">
+                <h3 class="project__title" data-scroll>FEATURED PROJECTS</h3>
+                
+                <div class="vertical"></div>
+                <br>
+                <div class="whitespace"></div>
+                <div class="whitespace"></div>
+
+                <div class="project__list">
+                    <div class="row">
+                        <div class="col-lg-8 project__list--1" onclick="location.href='project.html'" data-scroll data-scroll-speed="1">
+                            <img src="./assets/img/wall1.png" alt="" class="project__img">
+                        </div>
+
+                        <div class="col-lg-4"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4"></div>
+                        
+                        <div class="col-lg-8 project__list--2" onclick="location.href='project.html'" data-scroll data-scroll-speed="3">
+                            <img src="./assets/img/wall2.png" alt="" class="project__img2">
+                        </div>
+                    </div>     
+
+                    <div class="row">
+                        <div class="col-lg-8 project__list--3" onclick="location.href='project.html'" data-scroll data-scroll-speed="1">
+                            <img src="./assets/img/wall3.png" alt="" class="project__img3">
+                        </div>
+
+                        <div class="col-lg-4"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4"></div>
+
+                        <div class="col-lg-8 project__list--4" onclick="location.href='project.html'" data-scroll data-scroll-speed="3">
+                            <img src="./assets/img/wall4.png" alt="" class="project__img4">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" data-scroll-section>
+            <div class="footer__container bd-container">
+                <h3 class="footer__title">LET’S MAKE SOMETHING TOGETHER!</h3>
+
+                <h2 onclick="location.href='mailto:phunguyen@gmail.com'" class="footer__mail">phunguyen1016@gmail.com</h2>
+
+                <h3 onclick="location.href='tel:0945032799'" class="footer__phone">+0945032799</h3>
+
+                <div class="footer__social">
+                    <a href="https://github.com/hi991016" target="_blank" class="footer__link"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.facebook.com/hi991016" target="_blank" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.instagram.com/hi991016" target="_blank" class="footer__link"><i class='bx bxl-instagram'></i></a>
+                </div>
+                
+                <p class="footer__copy">
+                    Designed & Developed by Phu Nguyen<br>
+                    All rights reserved 2021
+                </p>
+            </div>
+        </footer>
+    </div>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- 3D IMAGE -->
+    <script src="./assets/js/3dimage.js"></script>
+    <!-- MAIN JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
