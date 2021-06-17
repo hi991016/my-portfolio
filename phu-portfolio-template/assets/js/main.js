@@ -1,8 +1,10 @@
 // CURSOR
 const cursor = document.querySelector("#cursor");
 anchor = document.querySelectorAll(
-    ".menu__logo, .menu__link, .home__data, .footer__phone, .footer__mail, .project__img, .project__img2, .project__img3, .project__img4"
+    ".nav__logo, .nav__link, .home__data, .footer__phone, .footer__mail, .project__img, .project__img2, .project__img3, .project__img4, .about__container-contact-link"
 );
+
+anchor2 = document.querySelectorAll(".home__data");
 
 document.addEventListener('mousemove', (e) => {
     let x = e.clientX,
@@ -15,6 +17,15 @@ document.addEventListener('mousemove', (e) => {
 anchor.forEach(anc => {
     anc.addEventListener("mouseover", () => {
         cursor.style.transform = "scale(4.5)";
+    });
+    anc.addEventListener("mouseleave", () => {
+        cursor.style.transform = "";
+    })
+})
+
+anchor2.forEach(anc => {
+    anc.addEventListener("mouseover", () => {
+        cursor.style.transform = "scale(8)";
     });
     anc.addEventListener("mouseleave", () => {
         cursor.style.transform = "";
@@ -114,9 +125,21 @@ $(document).ready(function() {
     );
 })
 
-// LOCOMOTIVE SCROLL
+// OVERLAY
+TweenMax.to(".overlay h1", 2.5, {
+    opacity: 0,
+    y: -60,
+    ease: Expo.easeInOut
+})
+TweenMax.to(".overlay", 2, {
+    delay: 1,
+    top: "-150%",
+    ease: Expo.easeInOut
+})
+
+// smooth scroll
 const scroll = new LocomotiveScroll({
-    el: document.querySelector('#js-scroll'),
+    el: document.querySelector('#js-scroll-index'),
     smooth: true,
     smoothMobile: true,
     inertia: 0.75
