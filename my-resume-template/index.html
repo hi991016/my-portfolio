@@ -7,11 +7,6 @@
 
     <!-- FAVICON -->
     <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
-    <!-- JQUERY -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="./assets/js/jquery.main.js"></script>
     <!-- BOXICONS -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <!-- CSS -->
@@ -27,17 +22,6 @@
     <!-- OVERLAY -->
     <div class="overlay">
         <h1 class="overlay__title" data-text="HI! I'M PHU">HI! I'M PHU</h1>
-    </div>
-
-    <!-- SHOW BIG IMAGE -->
-    <div id="bigImage" onclick="closeImage()">
-        <div class="wrapper">
-            <div class="close">
-                <div class="line"></div>
-            </div>
-            <a class="hero-title">PHU NGUYEN</a>
-            <img src="./assets/img/avatar.jpg" class="wrapper__img"alt="">
-        </div>
     </div>
 
     <!-- HEADER -->
@@ -276,7 +260,7 @@
                                             phuresume.web.app
                                     </a>
                                     <div class="img-container">
-                                        <img src="./assets/img/wall1.png" class="text-tag__img" alt="RESUME CV">
+                                        <img src="https://i.ibb.co/RTTXQxK/wall1.png" class="text-tag__img" alt="RESUME CV">
                                     </div>
                                 </div>
                             </div>
@@ -306,7 +290,7 @@
                                         class="project__website">
                                             github.com/hi991016/rn_healthinfo</a>
                                     <div class="img-container">
-                                        <img src="./assets/img/wall2.png" class="text-tag__img" alt="HEALTH INFO">
+                                        <img src="https://i.ibb.co/kJkRtcJ/wall2.png" class="text-tag__img" alt="HEALTH INFO">
                                     </div>
                                 </div>
                             </div>
@@ -336,7 +320,7 @@
                                             expo.io/@hi991016/vanlang-e-wallet
                                     </a>
                                     <div class="img-container">
-                                        <img src="./assets/img/wall3.png" class="text-tag__img" alt="HEALTH INFO">
+                                        <img src="https://i.ibb.co/Xs5yPFP/wall3.png" class="text-tag__img" alt="HEALTH INFO">
                                     </div>
                                 </div>                        
                             </div>
@@ -366,7 +350,7 @@
                                             thecaferacer.herokuapp.com
                                     </a>
                                     <div class="img-container">
-                                        <img src="./assets/img/wall4.png" class="text-tag__img" alt="THE CAFE RACER">
+                                        <img src="https://i.ibb.co/vcZ1J9h/wall4.png" class="text-tag__img" alt="THE CAFE RACER">
                                     </div>
                                 </div>   
                             </div>
@@ -448,47 +432,10 @@
     <!-- THREEJS & TWEENMAX -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <script src="./assets/js/hover-effect.umd.js"></script>
-
+    
     <!-- HTML2PDF.JS -->
     <script src="./assets/js/html2pdf.bundle.min.js"></script>
     <!-- MAIN JS -->
     <script src="./assets/js/main.js"></script>
-
-    <script>
-        // Wrap every letter in a span
-        var textWrapper = document.querySelector('.hero-title');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-        $(document).ready(function() {
-
-            $('#bigImage').hover(         
-                function () {
-                    anime.timeline({loop: false})
-                    .add({
-                    targets: '.hero-title .letter',
-                    translateX: [80,0],
-                    translateZ: 0,
-                    opacity: [0,1],
-                    easing: "easeOutExpo",
-                    duration: 1400,
-                    delay: (el, i) => 100 + 40 * i
-                    })
-                },
-
-                function () {
-                    anime.timeline({loop: false})
-                    .add({
-                    targets: '.hero-title .letter',
-                    translateX: [0,-80],
-                    opacity: [1,0],
-                    easing: "easeInExpo",
-                    duration: 800,
-                    delay: (el, i) => 40 * i
-                    });         
-                }
-            );
-        });
-    </script>
 </body>
 </html>

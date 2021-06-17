@@ -1,6 +1,5 @@
 /* GOOGLE FONT - POPPINS REGULAR 400 - MEDIUM 500 - SEMI BOLD 600*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* VARIABLE CSS */
 :root {
@@ -130,8 +129,8 @@ img {
 .img-container {
     position: relative;
     z-index: 1;
-    top: -230px;
-    left: 15px;
+    top: 10px;
+    left: 10px;
     opacity: 0;
     visibility: hidden;
 }
@@ -189,7 +188,7 @@ body.dark-theme {
 }
 
 .dark-theme .footer {
-    padding-bottom: 8.45rem;
+    padding-bottom: 7.5rem;
 }
 
 /* FONT SIZE CV */
@@ -209,7 +208,7 @@ body.scale-cv {
 }
 
 .scale-cv .bd-container {
-    max-width: 780px;
+    max-width: 785px;
 }
 
 .scale-cv .section {
@@ -415,69 +414,6 @@ body.scale-cv {
 
 .home__title {
     font-size: var(--h1-font-size);
-}
-
-/* SHOW BIG IMAGE AVATAR */
-#bigImage {
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: var(--z-fixed);
-    /* display: none; */
-}
-/* #bigImage img */
-#bigImage img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-    height: 500px;
-}
-.close {
-    height: 40px;
-    width: 45px;
-    position: absolute;
-    top: 30px;
-    right: 40px;
-    display: none;
-}
-.line {
-    height: 40px;
-    width: 5px;
-    background-color: white;
-    border-radius: 10px;
-    transform: rotate(45deg);
-    margin-left: 20px;
-}
-.line::before {
-    content: '';
-    height: 40px;
-    width: 5px;
-    background-color: #fff;
-    border-radius: 10px;
-    transform: rotate(-90deg);
-    position: absolute;
-}
-
-/* HOVER BIGIMAGE EFFETS */
-.hero-title {
-    position: absolute;
-    top: 35%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    z-index: var(--z-fixed);
-    font-size: 75px;
-    font-family: "Anton";
-    display: none;
-}
-.hero-title .letter {
-    display: inline-block;
-    opacity: 0;
 }
 
 /* GLICH */
@@ -770,10 +706,7 @@ body.scale-cv {
 @media screen and (min-width: 1024px) {
     body {
         margin: 3rem 0;
-        background-image: url('../img/bg.jpg');
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
+        background: url('https://i.ibb.co/FwVZrY0/bg-3.jpg') no-repeat fixed center;
         background-size: cover;
         cursor: none;
     }
@@ -940,16 +873,7 @@ body.scale-cv {
         border-radius: 46% 54% 38% 62% / 66% 38% 62% 34%;
         }
     }
-
-    /* SHOW BIG IMAGE */
-    #bigImage img {
-        width: 500px;
-        height: 500px;
-    }
-    .close {
-        display: block;
-    }
-
+    
     /* Effect Avatar */
     .home__image-effect .home__img {
         -webkit-transition: box-shadow 0.7s;
@@ -961,7 +885,8 @@ body.scale-cv {
         box-shadow: 0 0 0 5.5px var(--title-color);
         transition: all 0.3s ease-in-out;
     }
-    .hero-title {
-        display: block;
+
+    .img-container {
+        top: -230px;
     }
 }

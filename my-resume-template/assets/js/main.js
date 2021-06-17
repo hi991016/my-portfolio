@@ -302,3 +302,8 @@ TweenMax.staggerFrom(".languages__content", 1, {
 TweenMax.staggerFrom(".interests__content", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
+
+// CLOSE BIG IMAGE
+function closeImage() {
+    $("#bigImage").fadeOut();;
+}
