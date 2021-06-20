@@ -112,8 +112,8 @@ let opt = {
     filename:     'NguyenVanPhu-CV.pdf',
     image: { type: 'jpeg', quality: 1 },
     html2canvas: {
-      dpi: 192,
-      scale:4,
+      dpi: 300,
+      scale: 3,
       letterRendering: true,
       useCORS: true
     },
@@ -134,7 +134,7 @@ resumeButton.addEventListener('click', () => {
     generateResume()
 
     // 3. the .scale-cv class is remove from the body after 5 second to normal
-    setTimeout(removeScale, 5000)
+    setTimeout(removeScale, 3000)
 })
 
 // CURSOR
@@ -182,6 +182,7 @@ var getImage1 = document.getElementsByClassName("img-container") [0];
 var getImage2 = document.getElementsByClassName("img-container") [1];
 var getImage3 = document.getElementsByClassName("img-container") [2];
 var getImage4 = document.getElementsByClassName("img-container") [3];
+var getImage5 = document.getElementsByClassName("img-container") [4];
 
 function imageIn(img) {
     img.style.opacity = "1";
@@ -302,8 +303,3 @@ TweenMax.staggerFrom(".languages__content", 1, {
 TweenMax.staggerFrom(".interests__content", 1, {
     delay: 2, opacity: 0, y: 20, ease: Expo.easeInOut
 }, 0.2)
-
-// CLOSE BIG IMAGE
-function closeImage() {
-    $("#bigImage").fadeOut();;
-}

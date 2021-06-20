@@ -16,13 +16,14 @@
 </head>
 <body>
     <!-- class="scale-cv" -->
-    <!-- CUSTOM CURSOR -->
-    <div id="cursor"></div>
 
     <!-- OVERLAY -->
     <div class="overlay">
         <h1 class="overlay__title" data-text="HI! I'M PHU">HI! I'M PHU</h1>
     </div>
+
+    <!-- CUSTOM CURSOR -->
+    <div id="cursor"></div>
 
     <!-- HEADER -->
     <header class="l-header" id="header">
@@ -94,7 +95,7 @@
                             </div>
                             
 
-                            <h1 class="home__title" data-text="PHU NGUYEN"><b>PHU NGUYEN</b></h1>
+                            <h1 class="home__title" data-text="PHU NGUYEN">PHU NGUYEN</h1>
                             <h3 class="home__profession">Front-End Developer</h3>
 
                             <!-- Button download CV -->
@@ -244,7 +245,7 @@
 
                             <div class="project__data bd-grid">
                                 <h3 class="project__title">FRONT-END DEVELOPER</h3>
-                                <span class="project__company">Feb 2021 - Mar 2021 | RESUME CV</span>
+                                <span class="project__company">Feb 2021 - Present | PERSONAL WEBSITE</span>
                                 <p class="project__description">
                                     Full Responsive Personal website 
                                     (Html, Css, JavaScript, Responsive, GreenSock).
@@ -252,15 +253,28 @@
 
                                 <div class="text-tag">
                                     <a 
-                                        href="https://caofennec.web.app" 
+                                        href="https://phuportfolio.web.app" 
                                         target="blank" 
                                         onmouseover="imageIn(getImage1)" 
                                         onmouseout="imageOut(getImage1)" 
                                         class="project__website">
+                                            phuportfolio.web.app
+                                    </a>
+                                    <div class="img-container">
+                                        <img src="./assets/img/wall5.png" class="text-tag__img" alt="RESUME CV">
+                                    </div>
+                                </div>
+                                <div class="text-tag">
+                                    <a 
+                                        href="https://phuresume.web.app" 
+                                        target="blank" 
+                                        onmouseover="imageIn(getImage2)" 
+                                        onmouseout="imageOut(getImage2)" 
+                                        class="project__website">
                                             phuresume.web.app
                                     </a>
                                     <div class="img-container">
-                                        <img src="https://i.ibb.co/RTTXQxK/wall1.png" class="text-tag__img" alt="RESUME CV">
+                                        <img src="./assets/img/wall1.png" class="text-tag__img" alt="RESUME CV">
                                     </div>
                                 </div>
                             </div>
@@ -285,12 +299,12 @@
                                     <a 
                                         href="https://github.com/hi991016/rn_healthinfo" 
                                         target="blank" 
-                                        onmouseover="imageIn(getImage2)" 
-                                        onmouseout="imageOut(getImage2)" 
+                                        onmouseover="imageIn(getImage3)" 
+                                        onmouseout="imageOut(getImage3)" 
                                         class="project__website">
                                             github.com/hi991016/rn_healthinfo</a>
                                     <div class="img-container">
-                                        <img src="https://i.ibb.co/kJkRtcJ/wall2.png" class="text-tag__img" alt="HEALTH INFO">
+                                        <img src="./assets/img/wall2.png" class="text-tag__img" alt="HEALTH INFO">
                                     </div>
                                 </div>
                             </div>
@@ -314,13 +328,13 @@
                                     <a 
                                         href="https://expo.io/@hi991016/vanlang-e-wallet" 
                                         target="blank" 
-                                        onmouseover="imageIn(getImage3)" 
-                                        onmouseout="imageOut(getImage3)" 
+                                        onmouseover="imageIn(getImage4)" 
+                                        onmouseout="imageOut(getImage4)" 
                                         class="project__website">
                                             expo.io/@hi991016/vanlang-e-wallet
                                     </a>
                                     <div class="img-container">
-                                        <img src="https://i.ibb.co/Xs5yPFP/wall3.png" class="text-tag__img" alt="HEALTH INFO">
+                                        <img src="./assets/img/wall3.png" class="text-tag__img" alt="HEALTH INFO">
                                     </div>
                                 </div>                        
                             </div>
@@ -344,13 +358,13 @@
                                     <a 
                                         href="https://thecaferacer.herokuapp.com" 
                                         target="blank" 
-                                        onmouseover="imageIn(getImage4)" 
-                                        onmouseout="imageOut(getImage4)" 
+                                        onmouseover="imageIn(getImage5)" 
+                                        onmouseout="imageOut(getImage5)" 
                                         class="project__website">
                                             thecaferacer.herokuapp.com
                                     </a>
                                     <div class="img-container">
-                                        <img src="https://i.ibb.co/vcZ1J9h/wall4.png" class="text-tag__img" alt="THE CAFE RACER">
+                                        <img src="./assets/img/wall4.png" class="text-tag__img" alt="THE CAFE RACER">
                                     </div>
                                 </div>   
                             </div>
@@ -376,6 +390,10 @@
 
                     <div class="languages__container">
                         <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>
+                                English (Reading)
+                            </li>
                             <li class="languages__name">
                                 <span class="languages__circle"></span>
                                 Vietnamese
@@ -418,8 +436,6 @@
                         </div>
                     </div>
                 </section>
-
-                <div class="footer"></div>
             </div>
         </div>
     </main>
@@ -428,11 +444,9 @@
     <a href="#" class="scrolltop" id="scroll-top">
         <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
     </a>
-
     <!-- THREEJS & TWEENMAX -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    
     <!-- HTML2PDF.JS -->
     <script src="./assets/js/html2pdf.bundle.min.js"></script>
     <!-- MAIN JS -->
