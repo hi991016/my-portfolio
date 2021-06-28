@@ -112,8 +112,8 @@ let opt = {
     filename:     'NguyenVanPhu-CV.pdf',
     image: { type: 'jpeg', quality: 1 },
     html2canvas: {
-      dpi: 300,
-      scale: 3,
+      dpi: 192,
+      scale: 4,
       letterRendering: true,
       useCORS: true
     },
