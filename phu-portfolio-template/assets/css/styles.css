@@ -672,6 +672,9 @@ path {
   font-weight: 400;
   z-index: 2;
 }
+.about__skills {
+  font-size: 1rem !important;
+}
 
 .about__container p span {
   font-family: var(--Glysa-font) !important;
@@ -679,7 +682,8 @@ path {
 
 .about__container-contact-link a {
   color: var(--white-color);
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  cursor: none;
 }
 
 p.about__container-link {
@@ -732,15 +736,15 @@ p.about__container-link {
     display: none;
   }
 }
-
+html.has-scroll-smooth{overflow:hidden}html.has-scroll-dragging{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.has-scroll-smooth body{overflow:hidden}.has-scroll-smooth [data-scroll-container]{min-height:200vh}.c-scrollbar{position:absolute;right:0;top:0;width:11px;height:100%;transform-origin:center right;transition:transform .3s,opacity .3s;opacity:0}.c-scrollbar:hover{transform:scaleX(1.45)}.c-scrollbar:hover,.has-scroll-dragging .c-scrollbar,.has-scroll-scrolling .c-scrollbar{opacity:1}.c-scrollbar_thumb{position:absolute;top:0;right:0;z-index:999999;background-color:#000;opacity:.5;width:7px;border-radius:10px;margin:2px;cursor:-webkit-grab;cursor:grab}.has-scroll-dragging .c-scrollbar_thumb{cursor:-webkit-grabbing;cursor:grabbing}
 @media (min-width: 1024px) {
   .about__container p {
     font-size: 2.75rem;
   }
 
-  #js-scroll {
-    height: 200%;
-  }
+  /* #js-scroll {
+    height: 100%;
+  } */
 }
 
 /* PROJECT */
@@ -824,41 +828,35 @@ p.about__container-link {
 }
 
 .projectWork-next-link {
+  position: relative;
+}
+
+.projectWork-next-link img {
+  width: 850px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+  opacity: 0;
+}
+
+.projectWork-next-link:hover img {
+  opacity: 1;
+  position: relative;
+  transition: all 0.8s ease-in-out;
+}
+
+.projectWork-next-link a {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
   color: var(--white-color);
   font-family: var(--Glysa-font) !important;
   font-size: 10rem;
-  z-index: 2;
-  transition: 0.5s;
-  display: inline-block;
-  margin-top: 100px;
-  width: 100%;
   text-align: center;
-  position: relative;
-  transition: all 1s ease;
-}
-
-.projectWork-next-link span {
   mix-blend-mode: difference;
 }
 
-.projectWork-next-link:hover::after {
-  content: "";
-  z-index: -1;
-  width: 850px;
-  height: 600px;
-  display: block;
-  position: absolute;
-  top: -50%;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  display: inline-block;
-  background: url("../img/wall2.png") no-repeat 50% 50%;
-  background-size: cover;
-  border-radius: 5px;
-  margin: 0 auto;
-  transform: scale(1.08);
-}
 /* ====== PROJECT - HEALTH INFO ====== */
 .projectWork2__image-1 {
   background: url("../img/img-one.jpeg");

@@ -83,7 +83,7 @@ TweenMax.to({}, 0.016, {
 });
 
 // OVERPLAY
-TweenMax.to(".overlay h1", 2, {
+TweenMax.to(".overlay h1", 2.5, {
   opacity: 0,
   y: -60,
   ease: Expo.easeInOut,

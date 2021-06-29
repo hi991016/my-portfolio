@@ -44,12 +44,15 @@ link.forEach((b) => b.addEventListener("mousemove", animateit));
 link.forEach((b) => b.addEventListener("mouseleave", animateit));
 
 const scroll = new LocomotiveScroll({
-  el: document.querySelector("#js-scroll"),
+  el: document.querySelector("data-scroll-container"),
   smooth: true,
   smoothMobile: true,
   inertia: 0.75,
 });
-
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('[data-scroll-container]'),
+//     smooth: true
+// });
 // project title animation
 var textWrapper = document.querySelector(".anime-js-title");
 textWrapper.innerHTML = textWrapper.textContent.replace(
@@ -81,13 +84,13 @@ TweenMax.from(".project__image-1", 2, {
 });
 
 //OVERLAY
-TweenMax.to(".overlay h1", 2, {
+TweenMax.to(".overlay h1", 2.5, {
   opacity: 0,
-  x: 60,
+  y: -60,
   ease: Expo.easeInOut,
 });
 TweenMax.to(".overlay", 2, {
   delay: 1,
-  right: "-150%",
+  top: "-150%",
   ease: Expo.easeInOut,
 });
