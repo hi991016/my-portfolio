@@ -40,6 +40,7 @@ https://threejs.org/
 locomotive (https://codepen.io/ebinabo/pen/WNwjEaL) 
 Glitch 
 Mix-blend-mode
+https://devnow.vn/huong-dan-greensock-co-ban.html
 
 /* ICONS
 https://boxicons.com/
@@ -80,3 +81,42 @@ https://www.youtube.com/watch?v=ZdvRm1bfGAk&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe
 
 /* THREE DOT IN JS */
 https://medium.com/@hai213k57/three-dots-trong-javascript-c%C3%B3-%C3%BD-ngh%C4%A9a-g%C3%AC-873bd0570222
+
+/* BLA BLA */
+http://www.standardista.com/px-to-rem-conversion-if-root-font-size-is-16px/
+
+/* CSS ANIMATE */
+https://codingui.dev/
+https://github.com/codrops/LettersAnimationLayout
+https://mtptalent.com/#/about-us
+https://dev.to/said_mounaim/image-trail-effects-gsap-k42
+https://dev.to/duboloms/circle-animation-for-transitions-gsap-1jek
+https://dev.to/stackfindover/gsap-animated-carousel-slider-3h0e
+https://dev.to/nicolalc/gsap-animated-select-2ngk
+https://dev.to/afif/100-underline-overlay-animation-the-ultimate-css-collection-4p40
+https://ryota-sato.com/about/
+https://dev.to/kiransethu46/top-5-javascript-projects-for-resume-8d6
+https://www.deviantart.com/snatti89/gallery
+https://dev.to/surajondev/40-useful-resources-for-mastering-web-1i0h
+https://dev.to/joserfelix/40-high-quality-free-resources-for-web-development-10o3
+https://dev.to/dominikilnicki/15-free-svg-illustration-sets-for-your-next-project-jn7
+https://codemyui.com/3d-hover-card/
+https://codemyui.com/direction-aware-hover-testimonial-card-ui-design/
+https://getcssscan.com/css-box-shadow-examples
+https://codepen.io/kekkorider/pen/RraNRZ
+https://codemyui.com/ecommerce-grid-full-screen-product-click/
+https://v4-alpha.getbootstrap.com/getting-started/download/#source-files
+https://dev.to/ubahthebuilder/20-javascript-job-interview-questions-to-know-with-answers-1cmc
+https://www.xdguru.com/adobe-xd-guide/boolean-operations/
+https://ozmoroz.com/2019/03/react-css-transitions/
+https://javascript.info/
+github1s.com
+https://github.com/ccontrols/theme-ui-design-system
+https://viblo.asia/p/javascript-clean-code-javascript-Az45bo9OKxY
+https://minifycode.com/html-minifier/
+https://transfonter.org/
+
+/* CLONE HTML */
+https://thec8.com/
+https://www.thomasvegetables.com/
+https://www.bentallon.com/
