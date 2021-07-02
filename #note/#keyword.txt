@@ -44,6 +44,7 @@ https://devnow.vn/huong-dan-greensock-co-ban.html
 
 /* ICONS
 https://boxicons.com/
+https://www.flaticon.com/
 
 /* EMMET */
 https://docs.emmet.io/cheat-sheet/
@@ -78,6 +79,9 @@ https://tympanus.net/Tutorials/CaptionHoverEffects/index.html
 /* VALIDATOR */
 https://codepen.io/ng-ngc-sn-the-bashful/pen/wvMNzKP
 https://www.youtube.com/watch?v=ZdvRm1bfGAk&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=81
+
+/* COLOR */
+https://colorhunt.co/
 
 /* THREE DOT IN JS */
 https://medium.com/@hai213k57/three-dots-trong-javascript-c%C3%B3-%C3%BD-ngh%C4%A9a-g%C3%AC-873bd0570222
