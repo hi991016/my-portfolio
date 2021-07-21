@@ -43,16 +43,6 @@ const animateit = function (e) {
 link.forEach((b) => b.addEventListener("mousemove", animateit));
 link.forEach((b) => b.addEventListener("mouseleave", animateit));
 
-const scroll = new LocomotiveScroll({
-  el: document.querySelector("data-scroll-container"),
-  smooth: true,
-  smoothMobile: true,
-  inertia: 0.75,
-});
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('[data-scroll-container]'),
-//     smooth: true
-// });
 // project title animation
 var textWrapper = document.querySelector(".anime-js-title");
 textWrapper.innerHTML = textWrapper.textContent.replace(
@@ -93,4 +83,12 @@ TweenMax.to(".overlay", 2, {
   delay: 1,
   top: "-150%",
   ease: Expo.easeInOut,
+});
+
+// smooth scroll
+const scroll = new LocomotiveScroll({
+  el: document.querySelector("#js-scroll-project"),
+  smooth: true,
+  smoothMobile: true,
+  inertia: 0.75,
 });

@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css">
     <!-- BOXICONS -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <!-- FONT -->
-    <!-- <link href="//db.onlinewebfonts.com/c/7980cc1889b6b0b264dc47cca659f7c2?family=Neue+Montreal" rel="stylesheet" type="text/css"/> -->
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/fonts.css">
+    <!-- locomotive-scroll -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
 
     <title>Phu Nguyen - Creative Front-End Developer</title>
 </head>
@@ -25,7 +26,7 @@
         <!-- CUSTOM CURSOR -->
         <div id="cursor">
             <span class="more">
-                <img src="./assets/img/view.svg" alt="" width="800" height="800">
+                <img src="./assets/img/view.svg" alt="">
             </span>
         </div>
 
@@ -94,16 +95,16 @@
 
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <div class="nav__logo hover-this" onclick="location.href='index.html'">
-                    <a href="index.html">
+                <div class="nav__link hover-this">
+                    <a href="">
                         <span class="span-hover">
                             <img src="assets/img/home.svg" alt="" width="55" height="55">
                         </span>
                     </a>
                 </div>
 
-                <div class="nav__link hover-this" onclick="location.href='about.html'">
-                    <a href="about.html">
+                <div class="nav__link hover-this">
+                    <a href="./about/about.html">
                         <span class="span-hover">
                             <img src="assets/img/info.svg" alt="" width="48" height="48">
                             <span>
@@ -112,7 +113,7 @@
             </nav>
         </header>
 
-        <main class="l-main">
+        <main class="l-main" data-scroll-container id="js-scroll-index">
             <!-- HOME -->
             <section class="home" id="home">
                 <div class="home__container bd-container">
@@ -143,9 +144,9 @@
 
                 <div class="project__list">
                     <div class="row">
-                        <div class="col-lg-8 project__list--1" onclick="location.href='project.html'">
+                        <a class="col-lg-8 project__list--1" href="./work/phuresume.html">
                             <img src="./assets/img/wall1.png" alt="" class="project__img">
-                        </div>
+                        </a>
 
                         <div class="col-lg-4"></div>
                     </div>
@@ -153,15 +154,15 @@
                     <div class="row">
                         <div class="col-lg-4"></div>
 
-                        <div class="col-lg-8 project__list--2" onclick="location.href='project-2.html'">
+                        <a class="col-lg-8 project__list--2" href="./work/healthinfo.html">
                             <img src="./assets/img/wall2.png" alt="" class="project__img2">
-                        </div>
+                        </a>
                     </div>
 
                     <div class="row">
-                        <div class="col-lg-8 project__list--3" onclick="location.href='project-3.html'">
+                        <a class="col-lg-8 project__list--3" href="./work/vluwallet.html">
                             <img src="./assets/img/wall3.png" alt="" class="project__img3">
-                        </div>
+                        </a>
 
                         <div class="col-lg-4"></div>
                     </div>
@@ -169,38 +170,43 @@
                     <div class="row">
                         <div class="col-lg-4"></div>
 
-                        <div class="col-lg-8 project__list--4" onclick="location.href='project-4.html'">
+                        <a class="col-lg-8 project__list--4" href="./work/thecaferacer.html">
                             <img src="./assets/img/wall4.png" alt="" class="project__img4">
-                        </div>
+                        </a>
                     </div>
                 </div>
             </section>
-        </main>
 
-        <footer class="footer">
-            <div class="footer__container bd-container">
-                <h3 class="footer__title">LET’S MAKE SOMETHING TOGETHER!</h3>
+            <div class="footer">
+                <div class="footer__container bd-container">
+                    <h3 class="footer__title">LET’S MAKE SOMETHING TOGETHER!</h3>
 
-                <h2 onclick="location.href='mailto:phunguyen@gmail.com'" class="footer__mail">phunguyen1016@gmail.com
-                </h2>
+                    <h2 onclick="location.href='mailto:phunguyen@gmail.com'" class="footer__mail">
+                        phunguyen1016@gmail.com
+                    </h2>
 
-                <h3 onclick="location.href='tel:0945032799'" class="footer__phone">+0945032799</h3>
+                    <h3 onclick="location.href='tel:0945032799'" class="footer__phone">+0945032799</h3>
 
-                <div class="footer__social">
-                    <a href="https://github.com/hi991016" target="_blank" class="footer__link"><i
-                            class='bx bxl-github'></i></a>
-                    <a href="https://www.facebook.com/hi991016" target="_blank" class="footer__link"><i
-                            class='bx bxl-facebook'></i></a>
-                    <a href="https://www.instagram.com/hi991016" target="_blank" class="footer__link"><i
-                            class='bx bxl-instagram'></i></a>
+                    <span class="footer__sign">
+                        <img src="assets/img/sign.png" alt="">
+                    </span>
+
+                    <div class="footer__social">
+                        <a href="https://github.com/hi991016" target="_blank" class="footer__link"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://www.facebook.com/hi991016" target="_blank" class="footer__link"><i
+                                class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/hi991016" target="_blank" class="footer__link"><i
+                                class='bx bxl-instagram'></i></a>
+                    </div>
+
+                    <p class="footer__copy">
+                        Designed & Developed by Phu Nguyen<br>
+                        All rights reserved 2021
+                    </p>
                 </div>
-
-                <p class="footer__copy">
-                    Designed & Developed by Phu Nguyen<br>
-                    All rights reserved 2021
-                </p>
             </div>
-        </footer>
+        </main>
     </div>
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
@@ -210,6 +216,10 @@
     <script src="./assets/js/3dimage.js"></script>
     <!-- MAIN JS -->
     <script src="./assets/js/main.js"></script>
+    <!-- Page load and refresh to top of the page -->
+    <script>
+        history.scrollRestoration = "manual";
+    </script>
 </body>
 
 </html>

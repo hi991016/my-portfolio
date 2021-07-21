@@ -94,6 +94,7 @@ ul {
 
 a {
   text-decoration: none;
+  cursor: none;
 }
 
 img {
@@ -314,9 +315,9 @@ path {
   background-color: transparent;
 }
 
-.nav__logo a {
+/* .nav__logo a {
   pointer-events: none;
-}
+} */
 
 /* ===== HOME ===== */
 .home {
@@ -549,6 +550,16 @@ path {
   color: var(--text-color-light);
 }
 
+.footer__sign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__sign img {
+  width: 300px;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 480px) {
   :root {
@@ -652,10 +663,6 @@ path {
   .overlay h1 {
     letter-spacing: 12px;
   }
-
-  #js-scroll-index {
-    height: 200% !important;
-  }
 }
 
 /* ABOUT */
@@ -736,15 +743,11 @@ p.about__container-link {
     display: none;
   }
 }
-html.has-scroll-smooth{overflow:hidden}html.has-scroll-dragging{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.has-scroll-smooth body{overflow:hidden}.has-scroll-smooth [data-scroll-container]{min-height:200vh}.c-scrollbar{position:absolute;right:0;top:0;width:11px;height:100%;transform-origin:center right;transition:transform .3s,opacity .3s;opacity:0}.c-scrollbar:hover{transform:scaleX(1.45)}.c-scrollbar:hover,.has-scroll-dragging .c-scrollbar,.has-scroll-scrolling .c-scrollbar{opacity:1}.c-scrollbar_thumb{position:absolute;top:0;right:0;z-index:999999;background-color:#000;opacity:.5;width:7px;border-radius:10px;margin:2px;cursor:-webkit-grab;cursor:grab}.has-scroll-dragging .c-scrollbar_thumb{cursor:-webkit-grabbing;cursor:grabbing}
+
 @media (min-width: 1024px) {
   .about__container p {
     font-size: 2.75rem;
   }
-
-  /* #js-scroll {
-    height: 100%;
-  } */
 }
 
 /* PROJECT */
@@ -1112,5 +1115,21 @@ html.has-scroll-smooth{overflow:hidden}html.has-scroll-dragging{-webkit-user-sel
 
   .project__container-list {
     padding: 0 15rem;
+  }
+
+  .footer__sign img {
+    width: 400px;
+  }
+
+  #js-scroll-index {
+    min-height: 700vh !important;
+  }
+
+  #js-scroll-about {
+    min-height: 180vh !important;
+  }
+
+  #js-scroll-project {
+    min-height: 480vh !important;
   }
 }

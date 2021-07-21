@@ -43,7 +43,7 @@ link.forEach((b) => b.addEventListener("mouseleave", animateit));
 
 // smooth scroll
 const scroll = new LocomotiveScroll({
-  el: document.querySelector("#js-scroll"),
+  el: document.querySelector("#js-scroll-about"),
   smooth: true,
   smoothMobile: true,
   inertia: 0.75,
@@ -82,7 +82,7 @@ TweenMax.to({}, 0.016, {
   },
 });
 
-// OVERPLAY
+// OVERLAY
 TweenMax.to(".overlay h1", 2.5, {
   opacity: 0,
   y: -60,
