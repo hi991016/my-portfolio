@@ -560,7 +560,17 @@ path {
   width: 300px;
 }
 
+/* locomotive */
+.has-scroll-smooth body {
+  overflow: initial !important;
+}
+
+/* #js-scroll-index {
+  min-height: 500vh !important;
+} */
+
 /* MEDIA QUERIES */
+
 @media screen and (max-width: 480px) {
   :root {
     --title-font-size: 1.6rem;
@@ -598,6 +608,10 @@ path {
   .vertical {
     height: 100px;
   }
+
+  #js-scroll-index {
+    min-height: 420vh;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -621,6 +635,10 @@ path {
 
   .scroll-down {
     bottom: 25px;
+  }
+
+  #js-scroll-index {
+    min-height: 450vh;
   }
 }
 
@@ -662,6 +680,20 @@ path {
 
   .overlay h1 {
     letter-spacing: 12px;
+  }
+
+  .footer__sign img {
+    width: 400px;
+  }
+
+  #js-scroll-index {
+    min-height: 400vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #js-scroll-index {
+    min-height: 700vh;
   }
 }
 
@@ -714,6 +746,10 @@ p.about__container-link {
   transform: translate(5px, 5px);
 }
 
+#js-scroll-about {
+  min-height: 120vh;
+}
+
 /* MEDIA QUERIES - ABOUT*/
 @media screen and (max-width: 480px) {
   .about__container {
@@ -747,6 +783,10 @@ p.about__container-link {
 @media (min-width: 1024px) {
   .about__container p {
     font-size: 2.75rem;
+  }
+
+  #js-scroll-about {
+    min-height: 180vh !important;
   }
 }
 
@@ -1035,6 +1075,11 @@ p.about__container-link {
   line-height: 1em;
 }
 
+
+#js-scroll-project {
+  min-height: 320vh !important;
+}
+
 /* ===== MEDIA QUERIES - PROJECT ===== */
 @media screen and (max-width: 480px) {
   .project__container {
@@ -1106,6 +1151,10 @@ p.about__container-link {
   .projectWork4-next-link:hover::before {
     display: none;
   }
+
+  .projectWork-next-link a {
+    font-size: 7rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1117,19 +1166,8 @@ p.about__container-link {
     padding: 0 15rem;
   }
 
-  .footer__sign img {
-    width: 400px;
-  }
-
-  #js-scroll-index {
-    min-height: 700vh !important;
-  }
-
-  #js-scroll-about {
-    min-height: 180vh !important;
-  }
-
-  #js-scroll-project {
-    min-height: 480vh !important;
-  }
+  
+#js-scroll-project {
+  min-height: 480vh !important;
+}
 }
