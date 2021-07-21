@@ -147,7 +147,7 @@ resumeButton.addEventListener("click", () => {
 // CURSOR
 const cursor = document.querySelector("#cursor");
 anchor = document.querySelectorAll(
-  ".section-title, .home__title, .project__website, .change-theme, .generate-pdf"
+  ".section-title, .home__title, .project__link, .change-theme, .generate-pdf"
 );
 
 document.addEventListener("mousemove", (e) => {
@@ -160,7 +160,7 @@ document.addEventListener("mousemove", (e) => {
 
 anchor.forEach((anc) => {
   anc.addEventListener("mouseover", () => {
-    cursor.style.transform = "scale(6)";
+    cursor.style.transform = "scale(5)";
   });
   anc.addEventListener("mouseleave", () => {
     cursor.style.transform = "";
@@ -306,7 +306,7 @@ TweenMax.staggerFrom(
 
 //project data
 TweenMax.staggerFrom(
-  ".project__data h3",
+  ".experience__data h3",
   1,
   {
     delay: 2,
@@ -317,7 +317,7 @@ TweenMax.staggerFrom(
   0.2
 );
 TweenMax.staggerFrom(
-  ".project__data span",
+  ".experience__data span",
   1,
   {
     delay: 2,
@@ -328,7 +328,7 @@ TweenMax.staggerFrom(
   0.2
 );
 TweenMax.staggerFrom(
-  ".project__data p",
+  ".experience__data p",
   1,
   {
     delay: 2,
@@ -339,43 +339,7 @@ TweenMax.staggerFrom(
   0.2
 );
 TweenMax.staggerFrom(
-  ".project__data a",
-  1,
-  {
-    delay: 2,
-    opacity: 0,
-    y: 20,
-    ease: Expo.easeInOut,
-  },
-  0.2
-);
-
-TweenMax.staggerFrom(
-  ".project__rounder",
-  1,
-  {
-    delay: 2,
-    opacity: 0,
-    y: 20,
-    ease: Expo.easeInOut,
-  },
-  0.2
-);
-TweenMax.staggerFrom(
-  ".project__line",
-  1,
-  {
-    delay: 2,
-    opacity: 0,
-    y: 20,
-    ease: Expo.easeInOut,
-  },
-  0.2
-);
-
-//Education
-TweenMax.staggerFrom(
-  ".education__time span",
+  ".experience__data a",
   1,
   {
     delay: 2,
@@ -388,18 +352,6 @@ TweenMax.staggerFrom(
 
 TweenMax.staggerFrom(
   ".education__data h3",
-  1,
-  {
-    delay: 2,
-    opacity: 0,
-    y: 20,
-    ease: Expo.easeInOut,
-  },
-  0.2
-);
-
-TweenMax.staggerFrom(
-  ".education__data span",
   1,
   {
     delay: 2,
@@ -471,8 +423,3 @@ TweenMax.staggerFrom(
   },
   0.2
 );
-
-// CLOSE BIG IMAGE
-function closeImage() {
-  $("#bigImage").fadeOut();
-}

@@ -1,505 +1,551 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
-    <!-- JQUERY -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="./assets/js/jquery.main.js"></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo.ico"
+      type="image/x-icon"
+    />
     <!-- BOXICONS -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
     <title>Phu Nguyen - Creative Front-End Developer</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- class="scale-cv" -->
+
     <!-- CUSTOM CURSOR -->
     <div id="cursor"></div>
 
     <!-- OVERLAY -->
     <div class="overlay">
-        <h1 class="overlay__title" data-text="HI! I'M PHU">HI! I'M PHU</h1>
-    </div>
-
-    <!-- SHOW BIG IMAGE -->
-    <div id="bigImage" onclick="closeImage()">
-        <div class="wrapper">
-            <div class="close">
-                <div class="line"></div>
-            </div>
-            <div class="hero-title">PHU NGUYEN</div>
-            <img src="./assets/img/avatar.jpg" class="wrapper__img"alt="">
-        </div>
+      <h1 class="overlay__title" data-text="HI! I'M PHU">HI! I'M PHU</h1>
     </div>
 
     <!-- HEADER -->
     <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <a href="#home" class="nav__logo">Phu</a>
+      <nav class="nav bd-container">
+        <a href="" class="nav__logo">Phu</a>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class='bx bx-home nav__icon'></i>
-                            Home
-                        </a>
-                    </li>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>
+                Home
+              </a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#profile" class="nav__link">
-                            <i class='bx bx-user nav__icon'></i>
-                            Profile
-                        </a>
-                    </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>
+                Profile
+              </a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#education" class="nav__link">
-                            <i class='bx bx-book nav__icon'></i>
-                            Education
-                        </a>
-                    </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>
+                Education
+              </a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class='bx bx-receipt nav__icon'></i>
-                            Skills
-                        </a>
-                    </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>
+                Skills
+              </a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#project" class="nav__link">
-                            <i class='bx bx-briefcase-alt nav__icon'></i>
-                            Project
-                        </a>
-                    </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>
+                Experience
+              </a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#certificates" class="nav__link">
-                            <i class='bx bx-award nav__icon'></i>
-                            Certificates
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>
+                Certificates
+              </a>
+            </li>
+          </ul>
+        </div>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="bx bx-grid-alt"></i>
-            </div>
-        </nav>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
     </header>
 
     <main class="l-main bd-container">
-        <!-- GENERATE PDF -->
-        <div class="resume" id="area-cv">
-            <div class="resume__left">
-                <!-- HOME -->
-                <section class="home" id="home">
-                    <div class="home__container section bd-grid">
-                        <div class="home__data bd-grid">
-                            <div class="home__image-effect">
-                                <img src="./assets/img/avatar.jpg" alt="" class="home__img">
-                            </div>
-                            
+      <!-- GENERATE PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!-- HOME -->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <div class="home__image-effect">
+                  <img src="./assets/img/avatar.jpg" alt="" class="home__img" />
+                </div>
 
-                            <h1 class="home__title" data-text="PHU NGUYEN"><b>PHU NGUYEN</b></h1>
-                            <h3 class="home__profession">Front-End Developer</h3>
+                <h1 class="home__title" data-text="PHU NGUYEN">PHU NGUYEN</h1>
+                <h3 class="home__profession">Front-End Developer</h3>
 
-                            <!-- Button download CV -->
-                            <div>
-                                <a download="" href="./assets/pdf/NguyenVanPhu-CV.pdf" class="home__button">
-                                    DOWNLOAD
-                                </a>
-                            </div>
-                        </div>
+                <!-- Button download CV -->
+                <div>
+                  <a
+                    download=""
+                    href="./assets/pdf/NguyenVanPhu-CV.pdf"
+                    class="home__button"
+                  >
+                    DOWNLOAD
+                  </a>
+                </div>
+              </div>
 
-                        <div class="home__address bd-grid">
-                            <span class="home__information">
-                                <i class='bx bx-calendar home__icon' ></i>
-                                October 16, 1999
-                            </span>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-calendar home__icon"></i>
+                  October 16, 1999
+                </span>
 
-                            <span class="home__information">
-                                <i class="bx bx-map home__icon"></i>
-                                Ho Chi Minh City
-                            </span>
-                            
-                            <a href="mailto:phunguyen@gmail.com" class="home__information">
-                                <i class="bx bx-envelope home__icon"></i>
-                                phunguyen1016@gmail.com
-                            </a>
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>
+                  Ho Chi Minh City
+                </span>
 
-                            <a href="tel:0945032799" class="home__information">
-                                <i class="bx bx-phone home__icon"></i>
-                                0945 032 799
-                            </a>
-                        </div>
-                    </div>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  <a href="mailto:phunguyen@gmail.com" class="social__link"
+                    >phunguyen1016@gmail.com</a
+                  >
+                </span>
 
-                    <!-- THEME CHANGE BUTTON -->
-                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
-
-                    <!-- BUTTON DOWNLOAD PDF -->
-                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
-                </section>
-
-                <!-- SOCIAL -->
-                <section class="social section">
-                    <h2 class="section-title hover-this"><span class="span-hover" data-text="SOCIAL">SOCIAL</span></h2>
-                    
-                    <div class="social__container bd-grid">
-                        <a href="https://github.com/hi991016" target="blank" class="social__link">
-                            <i class='bx bxl-github social__icon'></i>
-                            <span class="social__link-text">github.com</span><b>/hi991016</b>
-                        </a>
-                        <a href="https://facebook.com/hi991016" target="blank" class="social__link">
-                            <i class='bx bxl-facebook social__icon'></i>
-                            <span class="social__link-text">facebook.com</span><b>/hi991016</b>
-                        </a>
-                        <a href="https://instagram.com/hi991016" target="blank" class="social__link">
-                            <i class='bx bxl-instagram social__icon'></i>
-                            <span class="social__link-text">instagram.com</span><b>/hi991016</b>
-                        </a>
-                    </div>
-                </section>
-
-                <!-- PROFILE -->
-                <section class="profile section" id="profile">
-                    <h2 class="section-title hover-this"><span class="span-hover" data-text="PROFILE">PROFILE</span></h2>
-
-                    <p class="profile__description">
-                        I'm a creative front-end developer. 
-                        I love UI design and creating a polished and meaningful user project.
-                    </p>        
-                </section>
-
-                <!-- EDUCATION -->
-                <section class="education section" id="education">
-                    <h2 class="section-title hover-this"><span class="span-hover" data-text="EDUCATION">EDUCATION</span></h2>
-
-                    <div class="education__container bd-grid">
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">SOFTWARE ENGINEERING</h3>
-                                <span class="education__studies">Van Lang University | 2017 - 2021</span>
-                                <span class="education__studies">GPA: 7.0</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="skills section" id="skills">
-                    <h2 class="section-title hover-this"><span class="span-hover" data-text="SKILLS">SKILLS</span></h2>
-
-                    <div class="skills__content bd-grid">
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>
-                                Html
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>
-                                Css/Scss
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>
-                                JavaScript
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>
-                                ReactJS
-                            </li>
-                        </ul>
-
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>
-                                React Native
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>
-                                Photoshop
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>
-                                Adobe XD
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>
-                                Figma
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>
+                  <a href="tel:0945032799" class="social__link">0945 032 799</a>
+                </span>
+              </div>
             </div>
 
-            <div class="resume__right">
-                <!-- project -->
-                <section class="project section" id="project">
-                    <h2 class="section-title hover-this"><span class="span-hover" data-text="FEATURED PROJECTS">FEATURED PROJECTS</span></h2>
-                    
-                    <div class="project__container bd-grid">
-                        <div class="project__content">
-                            <div class="project__time">
-                                <span class="project__rounder"></span>
-                                <span class="project__line"></span>
-                            </div>
+            <!-- THEME CHANGE BUTTON -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
 
-                            <div class="project__data bd-grid">
-                                <h3 class="project__title">PERSONAL WEBSITE</h3>
-                                <span class="project__company">Feb 2021 - Present | FRONT-END DEVELOPER</span>
-                                <p class="project__description">
-                                    Full Responsive Personal website 
-                                    (Html, Css, JavaScript, Responsive, GreenSock).
-                                </p>
+            <!-- BUTTON DOWNLOAD PDF -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
 
-                                <div class="text-tag">
-                                    <a 
-                                        href="https://phuportfolio.web.app" 
-                                        target="blank" 
-                                        onmouseover="imageIn(getImage1)" 
-                                        onmouseout="imageOut(getImage1)" 
-                                        class="project__website">
-                                            phuportfolio.web.app
-                                    </a>
-                                    <div class="img-container">
-                                        <img src="./assets/img/wall5.png" class="text-tag__img" alt="RESUME CV">
-                                    </div>
-                                </div>
+          <!-- SOCIAL -->
+          <section class="social section">
+            <h2 class="section-title hover-this">
+              <h2 class="section-title">SOCIAL</h2>
+            </h2>
 
-                                <div class="text-tag">
-                                    <a 
-                                        href="https://caofennec.web.app" 
-                                        target="blank" 
-                                        onmouseover="imageIn(getImage2)" 
-                                        onmouseout="imageOut(getImage2)" 
-                                        class="project__website">
-                                            phuresume.web.app
-                                    </a>
-                                    <div class="img-container">
-                                        <img src="./assets/img/wall1.png" class="text-tag__img" alt="RESUME CV">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project__content">
-                            <div class="project__time">
-                                <span class="project__rounder"></span>
-                                <span class="project__line"></span>
-                            </div>
-
-                            <div class="project__data bd-grid">
-                                <h3 class="project__title">HEALTH INFO</h3>
-                                <span class="project__company">Oct 2020 - May 2021 | FRONT-END DEVELOPER</span>
-                                <p class="project__description">
-                                    Health Info is an application on Mobile 
-                                    that allows mobile users to use their device as a tool 
-                                    to record their training route (React Native, React Hook, Google Fit).
-                                </p>
-
-                                <div class="text-tag">
-                                    <a 
-                                        href="https://github.com/hi991016/rn_healthinfo" 
-                                        target="blank" 
-                                        onmouseover="imageIn(getImage3)" 
-                                        onmouseout="imageOut(getImage3)" 
-                                        class="project__website">
-                                            github.com/hi991016/rn_healthinfo</a>
-                                    <div class="img-container">
-                                        <img src="./assets/img/wall2.png" class="text-tag__img" alt="HEALTH INFO">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project__content">
-                            <div class="project__time">
-                                <span class="project__rounder"></span>
-                                <span class="project__line"></span>
-                            </div>
-
-                            <div class="project__data bd-grid">
-                                <h3 class="project__title">VAN LANG E-WALLET</h3>
-                                <span class="project__company">May 2020 - Aug 2020 | FRONT-END DEVELOPER</span>
-                                <p class="project__description">
-                                    Vanlang E-Wallet is an application for Van Lang students to spend on school services
-                                    (React Native, React Hook, MongoDB, Expo).
-                                </p>
-                                
-                                <div class="text-tag">
-                                    <a 
-                                        href="https://expo.io/@hi991016/vanlang-e-wallet" 
-                                        target="blank" 
-                                        onmouseover="imageIn(getImage4)" 
-                                        onmouseout="imageOut(getImage4)" 
-                                        class="project__website">
-                                            expo.io/@hi991016/vanlang-e-wallet
-                                    </a>
-                                    <div class="img-container">
-                                        <img src="./assets/img/wall3.png" class="text-tag__img" alt="HEALTH INFO">
-                                    </div>
-                                </div>                        
-                            </div>
-                        </div>
-
-                        <div class="project__content">
-                            <div class="project__time">
-                                <span class="project__rounder"></span>
-                                <!-- <span class="project__line"></span> -->
-                            </div>
-
-                            <div class="project__data bd-grid">
-                                <h3 class="project__title">THE CAFE RACER</h3>
-                                <span class="project__company">Feb 2019 - May 2019 | FULL STACK</span>
-                                <p class="project__description">
-                                    Website for those who love to travel by motorbike and 
-                                    buy the necessary accessories for the journey (NodeJS, ExpressJS, MongoDB).
-                                </p>
-
-                                <div class="text-tag">
-                                    <a 
-                                        href="https://thecaferacer.herokuapp.com" 
-                                        target="blank" 
-                                        onmouseover="imageIn(getImage5)" 
-                                        onmouseout="imageOut(getImage5)" 
-                                        class="project__website">
-                                            thecaferacer.herokuapp.com
-                                    </a>
-                                    <div class="img-container">
-                                        <img src="./assets/img/wall4.png" class="text-tag__img" alt="THE CAFE RACER">
-                                    </div>
-                                </div>   
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- CERTIFICATES -->
-                <section class="certificate section" id="certificates">
-                    <h2 class="section-title hover-this"><span class="span-hover" data-text="CERTIFICATES">CERTIFICATES</span></h2>
-                    
-                    <div class="certificate__container bd-grid">
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">A Bachelor of Software Engineering by Van Lang University</h3>
-                            <p class="certificate__description">Studied Software Engineering at Van Lang University that transferred from Carnegie Mellon University, US.</p>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- LANGUAGES -->
-                <section class="languages section">
-                    <h2 class="section-title hover-this"><span class="span-hover" data-text="LANGUAGES">LANGUAGES</span></h2>
-
-                    <div class="languages__container">
-                        <ul class="languages__content bd-grid">
-                            <li class="languages__name">
-                                <span class="languages__circle"></span>
-                                Vietnamese
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <!-- INTERESTS -->
-                <section class="interests section">
-                    <h2 class="section-title hover-this"><span class="span-hover" data-text="INTERESTS">Interests</span></h2>
-
-                    <div class="interests__container bd-grid">
-                        <div class="interests__content">
-                            <i class="bx bx-paint interests__icon"></i>
-                            <span class="interests__name">
-                                Draw
-                            </span>
-                        </div>
-
-                        <div class="interests__content">
-                            <i class="bx bx-headphone interests__icon"></i>
-                            <span class="interests__name">
-                                Music
-                            </span>
-                        </div>
-
-                        <div class="interests__content">
-                            <i class="bx bxs-plane-alt interests__icon"></i>
-                            <span class="interests__name">
-                                Travel
-                            </span>
-                        </div>
-
-                        <div class="interests__content">
-                            <i class="bx bx-book interests__icon"></i>
-                            <span class="interests__name">
-                                Read
-                            </span>
-                        </div>
-                    </div>
-                </section>
-
-                <div class="footer"></div>
+            <div class="social__container bd-grid">
+              <a
+                href="https://github.com/hi991016"
+                target="blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i>
+                <span class="social__link-text">github.com</span
+                ><b>/hi991016</b>
+              </a>
+              <a
+                href="https://facebook.com/hi991016"
+                target="blank"
+                class="social__link"
+              >
+                <i class="bx bxl-facebook social__icon"></i>
+                <span class="social__link-text">facebook.com</span
+                ><b>/hi991016</b>
+              </a>
+              <a
+                href="https://instagram.com/hi991016"
+                target="blank"
+                class="social__link"
+              >
+                <i class="bx bxl-instagram social__icon"></i>
+                <span class="social__link-text">instagram.com</span
+                ><b>/hi991016</b>
+              </a>
             </div>
+          </section>
+
+          <!-- PROFILE -->
+          <section class="profile section" id="profile">
+            <h2 class="section-title hover-this">
+              <h2 class="section-title">PROFILE</h2>
+            </h2>
+
+            <p class="profile__description">
+              I'm a creative front-end developer. I love UI design and creating
+              a polished and meaningful user project.
+            </p>
+          </section>
+
+          <!-- EDUCATION -->
+          <section class="education section" id="education">
+            <h2 class="section-title hover-this">
+              <h2 class="section-title">EDUCATION</h2>
+            </h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">SOFTWARE ENGINEERING</h3>
+                  <span class="education__studies"
+                    >Van Lang University | 2017 - 2021</span
+                  >
+                  <span class="education__studies">GPA: 7.0</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="skills section" id="skills">
+            <h2 class="section-title hover-this">
+              <h2 class="section-title">SKILLS</h2>
+            </h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Html
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Css/Scss
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  JavaScript
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  ReactJS
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  React Native
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Photoshop
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Adobe XD
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Figma
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
+
+        <div class="resume__right">
+          <!-- EXPERIENCE -->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">EXPERIENCE</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">ANTSOMI CDP 365</h3>
+                  <span class="experience__company"
+                    >Apr 2021 - Present | FRONT-END DEVELOPER</span
+                  >
+                  <p class="experience__description">
+                    Antsomi CDP 365 helps businesses to decode their customer
+                    data, understand the nuances of their customer lifecycles
+                    (React Hook, Redux, Redux Saga, Material UI).
+                  </p>
+
+                  <div class="experience__project">
+                    <a
+                      href="https://www.antsomi.com/"
+                      target="blank"
+                      onmouseover="imageIn(getImage1)"
+                      onmouseout="imageOut(getImage1)"
+                      class="project__link"
+                    >
+                      antsomi.com
+                    </a>
+                    <div class="img-container">
+                      <img
+                        src="./assets/img/wall6.jpg"
+                        class="experience__project__img"
+                        alt="ANTSOMI"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">PERSONAL WEBSITE</h3>
+                  <span class="experience__company"
+                    >Feb 2021 - Present | FRONT-END DEVELOPER</span
+                  >
+                  <p class="experience__description">
+                    Full Responsive Personal website (Html, Css, JavaScript,
+                    Responsive, GreenSock).
+                  </p>
+
+                  <div class="experience__project">
+                    <a
+                      href="https://phuportfolio.web.app"
+                      target="blank"
+                      onmouseover="imageIn(getImage2)"
+                      onmouseout="imageOut(getImage2)"
+                      class="project__link"
+                    >
+                      phuportfolio.web.app
+                    </a>
+                    <div class="img-container">
+                      <img
+                        src="./assets/img/wall0.png"
+                        class="experience__project__img"
+                        alt="RESUME CV"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">HEALTH INFO</h3>
+                  <span class="experience__company"
+                    >Oct 2020 - May 2021 | FRONT-END DEVELOPER</span
+                  >
+                  <p class="experience__description">
+                    Health Info is an application on Mobile that allows mobile
+                    users to use their device as a tool to record their training
+                    route (React Native, React Hook, Google Fit).
+                  </p>
+
+                  <div class="experience__project">
+                    <a
+                      href="https://github.com/hi991016/rn_healthinfo"
+                      target="blank"
+                      onmouseover="imageIn(getImage3)"
+                      onmouseout="imageOut(getImage3)"
+                      class="project__link"
+                    >
+                      github.com/hi991016/rn_healthinfo</a
+                    >
+                    <div class="img-container">
+                      <img src="./assets/img/wall2.png" alt="HEALTH INFO" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">VAN LANG E-WALLET</h3>
+                  <span class="experience__company"
+                    >May 2020 - Aug 2020 | FRONT-END DEVELOPER</span
+                  >
+                  <p class="experience__description">
+                    Vanlang E-Wallet is an application for Van Lang students to
+                    spend on school services (React Native, React Hook, MongoDB,
+                    Expo).
+                  </p>
+
+                  <div class="experience__project">
+                    <a
+                      href="https://expo.io/@hi991016/vanlang-e-wallet"
+                      target="blank"
+                      onmouseover="imageIn(getImage4)"
+                      onmouseout="imageOut(getImage4)"
+                      class="project__link"
+                    >
+                      expo.io/@hi991016/vanlang-e-wallet
+                    </a>
+                    <div class="img-container">
+                      <img
+                        src="./assets/img/wall3.png"
+                        class="experience__project__img"
+                        alt="HEALTH INFO"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">THE CAFE RACER</h3>
+                  <span class="experience__company"
+                    >Feb 2019 - May 2019 | FULL STACK</span
+                  >
+                  <p class="experience__description">
+                    Website for those who love to travel by motorbike and buy
+                    the necessary accessories for the journey (NodeJS,
+                    ExpressJS, MongoDB).
+                  </p>
+
+                  <div class="experience__project">
+                    <a
+                      href="https://thecaferacer.herokuapp.com"
+                      target="blank"
+                      onmouseover="imageIn(getImage5)"
+                      onmouseout="imageOut(getImage5)"
+                      class="project__link"
+                    >
+                      thecaferacer.herokuapp.com
+                    </a>
+                    <div class="img-container">
+                      <img
+                        src="./assets/img/wall4.png"
+                        class="experience__project__img"
+                        alt="THE CAFE RACER"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- CERTIFICATES -->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">CERTIFICATES</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  A Bachelor of Software Engineering by Van Lang University
+                </h3>
+                <p class="certificate__description">
+                  Studied Software Engineering at Van Lang University that
+                  transferred from Carnegie Mellon University, US.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- LANGUAGES -->
+          <section class="languages section">
+            <h2 class="section-title">LANGUAGES</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  English (Reading)
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  Vietnamese
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- INTERESTS -->
+          <section class="interests section">
+            <h2 class="section-title">INTERESTS</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-paint interests__icon"></i>
+                <span class="interests__name"> Draw </span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name"> Music </span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name"> Read </span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name"> Travel </span>
+              </div>
+            </div>
+          </section>
+
+          <section class="footer"></section>
+        </div>
+      </div>
     </main>
 
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
     <!-- THREEJS & TWEENMAX -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <!-- SCROLL TOP -->
-    <a href="#" class="scrolltop" id="scroll-top">
-        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
-    </a>
     <!-- HTML2PDF.JS -->
     <script src="./assets/js/html2pdf.bundle.min.js"></script>
     <!-- MAIN JS -->
     <script src="./assets/js/main.js"></script>
-
-    <script>
-        // Wrap every letter in a span
-        var textWrapper = document.querySelector('.hero-title');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-        $(document).ready(function() {
-
-            $('.wrapper__img').hover(         
-                function () {
-                    anime.timeline({loop: false})
-                    .add({
-                    targets: '.hero-title .letter',
-                    translateX: [80,0],
-                    translateZ: 0,
-                    opacity: [0,1],
-                    easing: "easeOutExpo",
-                    duration: 1400,
-                    delay: (el, i) => 100 + 40 * i
-                    })
-                },
-
-                function () {
-                    anime.timeline({loop: false})
-                    .add({
-                    targets: '.hero-title .letter',
-                    translateX: [0,-80],
-                    opacity: [1,0],
-                    easing: "easeInExpo",
-                    duration: 800,
-                    delay: (el, i) => 40 * i
-                    });         
-                }
-            );
-        });
-    </script>
-</body>
+  </body>
 </html>
