@@ -1,7 +1,7 @@
 // CURSOR
 const cursor = document.querySelector("#cursor");
 anchor = document.querySelectorAll(
-  ".nav__logo, .nav__link, .home__data, .footer__phone, .footer__mail, .project__img, .project__img2, .project__img3, .project__img4, .about__container-contact-link"
+  ".nav__logo, .nav__link, .home__data, .footer__phone, .footer__mail, .project__img, .project__img2, .project__img3, .project__img4, .about__container-contact-link, .footer__link"
 );
 
 anchor2 = document.querySelectorAll(".home__data");
@@ -144,8 +144,8 @@ $(document).ready(function () {
 });
 
 // OVERLAY
-TweenMax.to(".overlay", 2.45, {
-  delay: 3,
+TweenMax.to(".overlay-bg", 2.5, {
+  delay: 2.8,
   top: "-150%",
   ease: Expo.easeInOut,
 });

@@ -2,7 +2,7 @@
 const cursor = document.querySelector("#cursor");
 
 anchor = document.querySelectorAll(
-  ".nav__logo, .nav__link, .about__container-contact-link"
+  ".nav__logo, .nav__link, .about__container-contact-link, .about__container--download, .footer__link"
 );
 
 document.addEventListener("mousemove", (e) => {
