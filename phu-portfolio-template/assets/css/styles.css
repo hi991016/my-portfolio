@@ -766,6 +766,12 @@ p.about__container-link {
   transform: translate(5px, 5px);
 }
 
+.about__container--cv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #js-scroll-about {
   min-height: 120vh;
 }
@@ -859,35 +865,42 @@ p.about__container-link {
   width: 600px;
   height: 500px;
   margin: 40px auto;
+  border-radius: 2px;
 }
 
 /* ====== PROJECT - PHU RESUME ====== */
 .projectWork1__image-1 {
-  background: url("../img/img-one.jpeg");
+  background: url("../img/resume/img-one.png");
   background-size: cover;
+  width: 700px;
 }
 
 .projectWork1__image-2 {
-  background: url("../img/img-two.jpeg");
+  background: url("../img/resume/img-two.png");
   background-size: cover;
   position: relative;
   top: -100px;
   left: -250px;
+  width: 600px;
+  height: 600px;
 }
 
 .projectWork1__image-3 {
-  background: url("../img/img-three.jpeg");
+  background: url("../img/resume/img-three.png");
   background-size: cover;
   position: relative;
   left: 300px;
+  width: 700px;
 }
 
 .projectWork1__image-4 {
-  background: url("../img/img-four.jpeg");
+  background: url("../img/resume/img-four.png");
   background-size: cover;
   position: relative;
   top: -200px;
   left: -100px;
+  width: 600px;
+  height: 600px;
 }
 
 .projectWork-next-link {
@@ -900,6 +913,7 @@ p.about__container-link {
   object-fit: contain;
   margin: 0 auto;
   opacity: 0;
+  border-radius: 10px;
 }
 
 .projectWork-next-link:hover img {
@@ -922,31 +936,36 @@ p.about__container-link {
 
 /* ====== PROJECT - HEALTH INFO ====== */
 .projectWork2__image-1 {
-  background: url("../img/img-one.jpeg");
+  background: url("../img/health/img-one.png");
   background-size: cover;
+  width: 800px;
+  height: 550px;
 }
 
 .projectWork2__image-2 {
-  background: url("../img/img-two.jpeg");
+  background: url("../img/health/img-two.png");
   background-size: cover;
   position: relative;
   top: -100px;
   left: -250px;
+  width: 680px;
 }
 
 .projectWork2__image-3 {
-  background: url("../img/img-three.jpeg");
+  background: url("../img/health/img-three.png");
   background-size: cover;
   position: relative;
   left: 300px;
+  width: 680px;
 }
 
 .projectWork2__image-4 {
-  background: url("../img/img-four.jpeg");
+  background: url("../img/health/img-four.png");
   background-size: cover;
   position: relative;
   top: -200px;
   left: -100px;
+  width: 680px;
 }
 
 .projectWork2-next-link:hover::before {
@@ -957,7 +976,7 @@ p.about__container-link {
   display: block;
   position: absolute;
   top: 0;
-  background: url("../img/wall3.png");
+  background: url("../img/sign.png");
   background-size: cover;
   transition: 1s;
   animation: fade-in 2s ease-in-out;
@@ -965,31 +984,35 @@ p.about__container-link {
 
 /* ====== PROJECT - VLU WALLET ====== */
 .projectWork3__image-1 {
-  background: url("../img/img-one.jpeg");
+  background: url("../img/wallet/img-one.png");
   background-size: cover;
+  width: 700px;
 }
 
 .projectWork3__image-2 {
-  background: url("../img/img-two.jpeg");
+  background: url("../img/wallet/img-two.png");
   background-size: cover;
   position: relative;
   top: -100px;
   left: -250px;
+  width: 700px;
 }
 
 .projectWork3__image-3 {
-  background: url("../img/img-three.jpeg");
+  background: url("../img/wallet/img-three.png");
   background-size: cover;
   position: relative;
   left: 300px;
+  width: 700px;
 }
 
 .projectWork3__image-4 {
-  background: url("../img/img-four.jpeg");
+  background: url("../img/wallet/img-four.png");
   background-size: cover;
   position: relative;
   top: -200px;
   left: -100px;
+  width: 700px;
 }
 
 .projectWork3-next-link:hover::before {
@@ -1008,31 +1031,43 @@ p.about__container-link {
 
 /* ====== PROJECT - CAFE RACER ====== */
 .projectWork4__image-1 {
-  background: url("../img/img-one.jpeg");
+  background: url("../img//cafe/img-one.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 520px;
 }
 
 .projectWork4__image-2 {
-  background: url("../img/img-two.jpeg");
+  background: url("../img/cafe/img-two.png");
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   top: -100px;
   left: -250px;
+  width: 900px;
+  height: 520px;
 }
 
 .projectWork4__image-3 {
-  background: url("../img/img-three.jpeg");
+  background: url("../img//cafe/img-three.png");
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   left: 300px;
+  width: 900px;
+  height: 500px;
 }
 
 .projectWork4__image-4 {
-  background: url("../img/img-four.jpeg");
+  background: url("../img//cafe/img-four.png");
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   top: -200px;
   left: -100px;
+  width: 900px;
+  height: 520px;
 }
 
 .projectWork4-next-link:hover::before {
@@ -1173,6 +1208,20 @@ p.about__container-link {
 
   .projectWork-next-link a {
     font-size: 7rem;
+  }
+
+  .projectWork-next-link img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projectWork1__image-3,
+  .projectWork2__image-3,
+  .projectWork3__image-3,
+  .projectWork4__image-3 {
+    width: 600px;
+    left: 200px;
   }
 }
 
