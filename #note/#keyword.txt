@@ -137,3 +137,6 @@ firebase login
 firebase init  -> hosting  -> single page: no
 firebase serve  (test)
 firebase deploy     -> Done!
+
+/* COVER SCSS TO CSS /*
+sass style.scss style.css
