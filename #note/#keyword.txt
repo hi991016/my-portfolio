@@ -66,6 +66,7 @@ https://viblo.asia/p/hoc-css-grid-trong-5-phut-1VgZv1NOKAw
 https://viblo.asia/p/chia-bo-cuc-layout-voi-css-grid-layout-WAyK8PdWKxX
 https://codelearn.io/sharing/flexbox-va-grid-trong-css3-phan-1
 https://codelearn.io/sharing/flexbox-va-grid-trong-css3-phan-2
+Masonry Grid
 
 /* JAVASCRIPT (DOM) */
 https://thachpham.com/web-development/javascript/javascript-co-ban-hanh-trinh-cua-mot-anh-hung.html
@@ -88,6 +89,11 @@ https://medium.com/@hai213k57/three-dots-trong-javascript-c%C3%B3-%C3%BD-ngh%C4%
 
 /* BLA BLA */
 http://www.standardista.com/px-to-rem-conversion-if-root-font-size-is-16px/
+
+/* MINIFIER */
+https://minifycode.com/html-minifier/
+https://cssminifier.com/
+https://javascript-minifier.com/
 
 /* CSS ANIMATE */
 https://codingui.dev/
@@ -124,3 +130,10 @@ https://transfonter.org/
 https://thec8.com/
 https://www.thomasvegetables.com/
 https://www.bentallon.com/
+
+/* DEPLOY FIREBASE */
+npm install -g firebase-tools
+firebase login
+firebase init  -> hosting  -> single page: no
+firebase serve  (test)
+firebase deploy     -> Done!

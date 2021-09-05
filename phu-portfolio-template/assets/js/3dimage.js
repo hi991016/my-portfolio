@@ -1,267 +1,232 @@
-// IMAGE 2
 let img2 = document.querySelector(".project__img2");
-
-document.addEventListener("mousemove", function (e) {
+document.addEventListener("mousemove", function (t) {
   if (
-    e.x > img2.getBoundingClientRect().x &&
-    e.x < img2.getBoundingClientRect().x + img2.getBoundingClientRect().width &&
-    e.y > img2.getBoundingClientRect().y &&
-    e.y < img2.getBoundingClientRect().y + img2.getBoundingClientRect().height
+    t.x > img2.getBoundingClientRect().x &&
+    t.x < img2.getBoundingClientRect().x + img2.getBoundingClientRect().width &&
+    t.y > img2.getBoundingClientRect().y &&
+    t.y < img2.getBoundingClientRect().y + img2.getBoundingClientRect().height
   ) {
     if (
-      e.x > img2.getBoundingClientRect().x &&
-      e.x <
+      t.x > img2.getBoundingClientRect().x &&
+      t.x <
         img2.getBoundingClientRect().x + img2.getBoundingClientRect().width / 2
     ) {
-      let valueXLeft =
+      let e =
         (img2.getBoundingClientRect().width / 2 -
-          (e.x - img2.getBoundingClientRect().x)) /
+          (t.x - img2.getBoundingClientRect().x)) /
         15;
-      TweenMax.to(img2, 1, { rotationY: -1 * valueXLeft });
+      TweenMax.to(img2, 1, { rotationY: -1 * e });
     }
-
     if (
-      e.x >
+      t.x >
         img2.getBoundingClientRect().x +
           img2.getBoundingClientRect().width / 2 &&
-      e.x < img2.getBoundingClientRect().x + img2.getBoundingClientRect().width
+      t.x < img2.getBoundingClientRect().x + img2.getBoundingClientRect().width
     ) {
-      let valueXRight =
-        (e.x -
+      let e =
+        (t.x -
           img2.getBoundingClientRect().x -
           img2.getBoundingClientRect().width / 2) /
         15;
-      TweenMax.to(img2, 1, { rotationY: valueXRight });
+      TweenMax.to(img2, 1, { rotationY: e });
     }
-
     if (
-      e.y > img2.getBoundingClientRect().y &&
-      e.y <
+      t.y > img2.getBoundingClientRect().y &&
+      t.y <
         img2.getBoundingClientRect().y + img2.getBoundingClientRect().height / 2
     ) {
-      let valueYTop =
+      let e =
         (img2.getBoundingClientRect().height / 2 -
-          (e.y - img2.getBoundingClientRect().y)) /
+          (t.y - img2.getBoundingClientRect().y)) /
         15;
-      TweenMax.to(img2, 1, { rotationX: valueYTop });
+      TweenMax.to(img2, 1, { rotationX: e });
     }
-
     if (
-      e.y >
+      t.y >
         img2.getBoundingClientRect().y +
           img2.getBoundingClientRect().height / 2 &&
-      e.y < img2.getBoundingClientRect().y + img2.getBoundingClientRect().height
+      t.y < img2.getBoundingClientRect().y + img2.getBoundingClientRect().height
     ) {
-      let valueXBottom =
-        (e.y -
+      let e =
+        (t.y -
           img2.getBoundingClientRect().y -
           img2.getBoundingClientRect().height / 2) /
         15;
-      TweenMax.to(img2, 1, { rotationX: -1 * valueXBottom });
+      TweenMax.to(img2, 1, { rotationX: -1 * e });
     }
-  } else {
-    TweenMax.to(img2, 2, { rotationX: 0 });
-    TweenMax.to(img2, 2, { rotationY: 0 });
-  }
+  } else TweenMax.to(img2, 2, { rotationX: 0 }), TweenMax.to(img2, 2, { rotationY: 0 });
 });
-
-// IMAGE 3
 let img3 = document.querySelector(".project__img3");
-
-document.addEventListener("mousemove", function (e) {
+document.addEventListener("mousemove", function (t) {
   if (
-    e.x > img3.getBoundingClientRect().x &&
-    e.x < img3.getBoundingClientRect().x + img3.getBoundingClientRect().width &&
-    e.y > img3.getBoundingClientRect().y &&
-    e.y < img3.getBoundingClientRect().y + img3.getBoundingClientRect().height
+    t.x > img3.getBoundingClientRect().x &&
+    t.x < img3.getBoundingClientRect().x + img3.getBoundingClientRect().width &&
+    t.y > img3.getBoundingClientRect().y &&
+    t.y < img3.getBoundingClientRect().y + img3.getBoundingClientRect().height
   ) {
     if (
-      e.x > img3.getBoundingClientRect().x &&
-      e.x <
+      t.x > img3.getBoundingClientRect().x &&
+      t.x <
         img3.getBoundingClientRect().x + img3.getBoundingClientRect().width / 2
     ) {
-      let valueXLeft =
+      let e =
         (img3.getBoundingClientRect().width / 2 -
-          (e.x - img3.getBoundingClientRect().x)) /
+          (t.x - img3.getBoundingClientRect().x)) /
         15;
-      TweenMax.to(img3, 1, { rotationY: -1 * valueXLeft });
+      TweenMax.to(img3, 1, { rotationY: -1 * e });
     }
-
     if (
-      e.x >
+      t.x >
         img3.getBoundingClientRect().x +
           img3.getBoundingClientRect().width / 2 &&
-      e.x < img3.getBoundingClientRect().x + img3.getBoundingClientRect().width
+      t.x < img3.getBoundingClientRect().x + img3.getBoundingClientRect().width
     ) {
-      let valueXRight =
-        (e.x -
+      let e =
+        (t.x -
           img3.getBoundingClientRect().x -
           img3.getBoundingClientRect().width / 2) /
         15;
-      TweenMax.to(img3, 1, { rotationY: valueXRight });
+      TweenMax.to(img3, 1, { rotationY: e });
     }
-
     if (
-      e.y > img3.getBoundingClientRect().y &&
-      e.y <
+      t.y > img3.getBoundingClientRect().y &&
+      t.y <
         img3.getBoundingClientRect().y + img3.getBoundingClientRect().height / 2
     ) {
-      let valueYTop =
+      let e =
         (img3.getBoundingClientRect().height / 2 -
-          (e.y - img3.getBoundingClientRect().y)) /
+          (t.y - img3.getBoundingClientRect().y)) /
         15;
-      TweenMax.to(img3, 1, { rotationX: valueYTop });
+      TweenMax.to(img3, 1, { rotationX: e });
     }
-
     if (
-      e.y >
+      t.y >
         img3.getBoundingClientRect().y +
           img3.getBoundingClientRect().height / 2 &&
-      e.y < img3.getBoundingClientRect().y + img3.getBoundingClientRect().height
+      t.y < img3.getBoundingClientRect().y + img3.getBoundingClientRect().height
     ) {
-      let valueXBottom =
-        (e.y -
+      let e =
+        (t.y -
           img3.getBoundingClientRect().y -
           img3.getBoundingClientRect().height / 2) /
         15;
-      TweenMax.to(img3, 1, { rotationX: -1 * valueXBottom });
+      TweenMax.to(img3, 1, { rotationX: -1 * e });
     }
-  } else {
-    TweenMax.to(img3, 2, { rotationX: 0 });
-    TweenMax.to(img3, 2, { rotationY: 0 });
-  }
+  } else TweenMax.to(img3, 2, { rotationX: 0 }), TweenMax.to(img3, 2, { rotationY: 0 });
 });
-
-// IMAGE 4
 let img4 = document.querySelector(".project__img4");
-
-document.addEventListener("mousemove", function (e) {
+document.addEventListener("mousemove", function (t) {
   if (
-    e.x > img4.getBoundingClientRect().x &&
-    e.x < img4.getBoundingClientRect().x + img4.getBoundingClientRect().width &&
-    e.y > img4.getBoundingClientRect().y &&
-    e.y < img4.getBoundingClientRect().y + img4.getBoundingClientRect().height
+    t.x > img4.getBoundingClientRect().x &&
+    t.x < img4.getBoundingClientRect().x + img4.getBoundingClientRect().width &&
+    t.y > img4.getBoundingClientRect().y &&
+    t.y < img4.getBoundingClientRect().y + img4.getBoundingClientRect().height
   ) {
     if (
-      e.x > img4.getBoundingClientRect().x &&
-      e.x <
+      t.x > img4.getBoundingClientRect().x &&
+      t.x <
         img4.getBoundingClientRect().x + img4.getBoundingClientRect().width / 2
     ) {
-      let valueXLeft =
+      let e =
         (img4.getBoundingClientRect().width / 2 -
-          (e.x - img4.getBoundingClientRect().x)) /
+          (t.x - img4.getBoundingClientRect().x)) /
         15;
-      TweenMax.to(img4, 1, { rotationY: -1 * valueXLeft });
+      TweenMax.to(img4, 1, { rotationY: -1 * e });
     }
-
     if (
-      e.x >
+      t.x >
         img4.getBoundingClientRect().x +
           img4.getBoundingClientRect().width / 2 &&
-      e.x < img4.getBoundingClientRect().x + img4.getBoundingClientRect().width
+      t.x < img4.getBoundingClientRect().x + img4.getBoundingClientRect().width
     ) {
-      let valueXRight =
-        (e.x -
+      let e =
+        (t.x -
           img4.getBoundingClientRect().x -
           img4.getBoundingClientRect().width / 2) /
         15;
-      TweenMax.to(img4, 1, { rotationY: valueXRight });
+      TweenMax.to(img4, 1, { rotationY: e });
     }
-
     if (
-      e.y > img4.getBoundingClientRect().y &&
-      e.y <
+      t.y > img4.getBoundingClientRect().y &&
+      t.y <
         img4.getBoundingClientRect().y + img4.getBoundingClientRect().height / 2
     ) {
-      let valueYTop =
+      let e =
         (img4.getBoundingClientRect().height / 2 -
-          (e.y - img4.getBoundingClientRect().y)) /
+          (t.y - img4.getBoundingClientRect().y)) /
         15;
-      TweenMax.to(img4, 1, { rotationX: valueYTop });
+      TweenMax.to(img4, 1, { rotationX: e });
     }
-
     if (
-      e.y >
+      t.y >
         img4.getBoundingClientRect().y +
           img4.getBoundingClientRect().height / 2 &&
-      e.y < img4.getBoundingClientRect().y + img4.getBoundingClientRect().height
+      t.y < img4.getBoundingClientRect().y + img4.getBoundingClientRect().height
     ) {
-      let valueXBottom =
-        (e.y -
+      let e =
+        (t.y -
           img4.getBoundingClientRect().y -
           img4.getBoundingClientRect().height / 2) /
         15;
-      TweenMax.to(img4, 1, { rotationX: -1 * valueXBottom });
+      TweenMax.to(img4, 1, { rotationX: -1 * e });
     }
-  } else {
-    TweenMax.to(img4, 2, { rotationX: 0 });
-    TweenMax.to(img4, 2, { rotationY: 0 });
-  }
+  } else TweenMax.to(img4, 2, { rotationX: 0 }), TweenMax.to(img4, 2, { rotationY: 0 });
 });
-
-// 3D MAIL
 let mail = document.querySelector(".footer__mail");
-
-document.addEventListener("mousemove", function (e) {
+document.addEventListener("mousemove", function (t) {
   if (
-    e.x > mail.getBoundingClientRect().x &&
-    e.x < mail.getBoundingClientRect().x + mail.getBoundingClientRect().width &&
-    e.y > mail.getBoundingClientRect().y &&
-    e.y < mail.getBoundingClientRect().y + mail.getBoundingClientRect().height
+    t.x > mail.getBoundingClientRect().x &&
+    t.x < mail.getBoundingClientRect().x + mail.getBoundingClientRect().width &&
+    t.y > mail.getBoundingClientRect().y &&
+    t.y < mail.getBoundingClientRect().y + mail.getBoundingClientRect().height
   ) {
     if (
-      e.x > mail.getBoundingClientRect().x &&
-      e.x <
+      t.x > mail.getBoundingClientRect().x &&
+      t.x <
         mail.getBoundingClientRect().x + mail.getBoundingClientRect().width / 2
     ) {
-      let valueXLeft =
+      let e =
         (mail.getBoundingClientRect().width / 2 -
-          (e.x - mail.getBoundingClientRect().x)) /
+          (t.x - mail.getBoundingClientRect().x)) /
         17;
-      TweenMax.to(mail, 1, { rotationY: -1 * valueXLeft });
+      TweenMax.to(mail, 1, { rotationY: -1 * e });
     }
-
     if (
-      e.x >
+      t.x >
         mail.getBoundingClientRect().x +
           mail.getBoundingClientRect().width / 2 &&
-      e.x < mail.getBoundingClientRect().x + mail.getBoundingClientRect().width
+      t.x < mail.getBoundingClientRect().x + mail.getBoundingClientRect().width
     ) {
-      let valueXRight =
-        (e.x -
+      let e =
+        (t.x -
           mail.getBoundingClientRect().x -
           mail.getBoundingClientRect().width / 2) /
         17;
-      TweenMax.to(mail, 1, { rotationY: valueXRight });
+      TweenMax.to(mail, 1, { rotationY: e });
     }
-
     if (
-      e.y > mail.getBoundingClientRect().y &&
-      e.y <
+      t.y > mail.getBoundingClientRect().y &&
+      t.y <
         mail.getBoundingClientRect().y + mail.getBoundingClientRect().height / 2
     ) {
-      let valueYTop =
+      let e =
         (mail.getBoundingClientRect().height / 2 -
-          (e.y - mail.getBoundingClientRect().y)) /
+          (t.y - mail.getBoundingClientRect().y)) /
         17;
-      TweenMax.to(mail, 1, { rotationX: valueYTop });
+      TweenMax.to(mail, 1, { rotationX: e });
     }
-
     if (
-      e.y >
+      t.y >
         mail.getBoundingClientRect().y +
           mail.getBoundingClientRect().height / 2 &&
-      e.y < mail.getBoundingClientRect().y + mail.getBoundingClientRect().height
+      t.y < mail.getBoundingClientRect().y + mail.getBoundingClientRect().height
     ) {
-      let valueXBottom =
-        (e.y -
+      let e =
+        (t.y -
           mail.getBoundingClientRect().y -
           mail.getBoundingClientRect().height / 2) /
         17;
-      TweenMax.to(img, 1, { rotationX: -1 * valueXBottom });
+      TweenMax.to(img, 1, { rotationX: -1 * e });
     }
-  } else {
-    TweenMax.to(mail, 2, { rotationX: 0 });
-    TweenMax.to(mail, 2, { rotationY: 0 });
-  }
+  } else TweenMax.to(mail, 2, { rotationX: 0 }), TweenMax.to(mail, 2, { rotationY: 0 });
 });

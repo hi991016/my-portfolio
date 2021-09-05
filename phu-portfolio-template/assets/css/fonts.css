@@ -1,9 +1,8 @@
 @font-face {
-    font-family: 'Glysa';
-    src: url('../fonts/Glysa-Medium.woff2') format('woff2'),
-        url('../fonts/Glysa-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: fallback;
+  font-family: "Glysa";
+  src: url("../fonts/Glysa-Medium.woff2") format("woff2"),
+    url("../fonts/Glysa-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
 }
-

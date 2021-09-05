@@ -5,99 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- FAVICON -->
-    <link rel="shortcut icon" href="../assets/img/logo.ico" type="image/x-icon">
-    <!-- BOXICONS -->
+    <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <!-- CSS -->
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <!-- FONT -->
-    <link rel="stylesheet" href="../assets/css/fonts.css">
-    <!-- GREENSOCK -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <!-- LOCOMOTIVE -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
-
     <title>Phu Nguyen - Creative Front-End Developer</title>
 </head>
 
 <body id="js-scroll-about">
     <div class="wrapper">
-        <!-- OVERLAY -->
         <div class="overlay">
             <h1 class="overlay__title">ABOUT ME</h1>
         </div>
-
-        <!-- CURSOR -->
         <div id="cursor"></div>
-
-        <!-- MENU -->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <div class="nav__link hover-this">
-                    <a href="../index.html">
-                        <span class="span-hover">
-                            <img src="../assets/img/home.svg" alt="" width="55" height="55">
-                        </span>
-                    </a>
-                </div>
-
-                <div class="nav__link hover-this">
-                    <a href="">
-                        <span class="span-hover">
-                            <img src="../assets/img/info.svg" alt="" width="48" height="48">
-                            <span>
-                    </a>
-                </div>
+                <div class="nav__link hover-this"> <a href="../index.html"> <span class="span-hover"> <img
+                                src="./assets/img/home.svg" alt="" width="55" height="55"> </span> </a> </div>
+                <div class="nav__link hover-this"> <a href=""> <span class="span-hover"> <img
+                                src="./assets/img/info.svg" alt="" width="48" height="48"> <span> </a> </div>
             </nav>
         </header>
-
-        <!-- ABOUT SECTION -->
         <div class="about__container" data-scroll-section>
             <div class="about__container--cv">
-                <p class="about__skills" data-scroll>Html / Css / Scss / JavaScript / React / Adobe XD / Figma /
-                    Photoshop /
-                    Illustrator</p>
-
-                <a class="about__container--download" download="" href="../assets/pdf/NguyenVanPhu-CV.pdf"><i class="bx bx-download"></i></a>
+                <p class="about__skills" data-scroll>Html / Css / Scss / JavaScript / React / React Native / Adobe XD /
+                    Figma / Photoshop / Illustrator</p><a class="about__container--download" download=""
+                    href=".//pdf/NguyenVanPhu-CV.pdf"><i class="bx bx-download"></i></a>
             </div>
-
-            <p class="about__container-data" data-scroll>
-                Hi! My name is <span><a download="" href="../assets/pdf/NguyenVanPhu-CV.pdf"
-                        class="about__container--download">Phu Nguyen</a></span> and
-                I'm a
-                creative front-end developer,
-                live in <span>Ho Chi Minh City,</span> Vietnam. <br />
-                Basically i like creating cool design.
-                I'm new and inexperienced but i'll do my best.
-            </p>
-
-            <p class="about__desciption" data-scroll>
-                Have an idea? </br>
-                <span class="about__container-contact-link"><a href="mailto:phunguyen@gmail.com">Let’s make something
-                        together.</a></span>
-            </p>
-
-            <div class="about__container-link" data-scroll>
-                <a href="https://github.com/hi991016" target="_blank" class="footer__link"><i
-                        class='bx bxl-github'></i></a>
-                <a href="https://www.facebook.com/hi991016" target="_blank" class="footer__link"><i
-                        class='bx bxl-facebook'></i></a>
-                <a href="https://www.instagram.com/hi991016" target="_blank" class="footer__link"><i
-                        class='bx bxl-instagram'></i></a>
-            </div>
+            <p class="about__container-data" data-scroll> Hi! My name is <span><a download=""
+                        href=".//pdf/NguyenVanPhu-CV.pdf" class="about__container--download">Phu Nguyen</a></span> and
+                I'm a creative front-end developer, live in <span>Ho Chi Minh City,</span> Vietnam. <br /> Basically i
+                like creating cool design. I'm new and inexperienced but i'll do my best. </p>
+            <p class="about__desciption" data-scroll> Have an idea? </br> <span class="about__container-contact-link"><a
+                        href="mailto:phunguyen@gmail.com">Let’s make something together.</a></span> </p>
+            <div class="about__container-link" data-scroll> <a href="https://github.com/hi991016" target="_blank"
+                    class="footer__link"><i class='bx bxl-github'></i></a> <a href="https://www.facebook.com/hi991016"
+                    target="_blank" class="footer__link"><i class='bx bxl-facebook'></i></a> <a
+                    href="https://www.instagram.com/hi991016" target="_blank" class="footer__link"><i
+                        class='bx bxl-instagram'></i></a> </div>
         </div>
-
         <div class="cursor-follow"></div>
     </div>
-
-    <!-- MAINJS -->
-    <script src="../assets/js/about.js"></script>
-    <!-- Page load and refresh to top of the page -->
-    <script>
-        history.scrollRestoration = "manual";
-    </script>
+    <script src="./assets/js/about.js"></script>
+    <script>history.scrollRestoration = "manual";</script>
 </body>
 
 </html>
