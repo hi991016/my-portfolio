@@ -125,6 +125,7 @@ https://github.com/ccontrols/theme-ui-design-system
 https://viblo.asia/p/javascript-clean-code-javascript-Az45bo9OKxY
 https://minifycode.com/html-minifier/
 https://transfonter.org/
+https://css-tricks.com/the-priority-navigation-pattern/?fbclid=IwAR0nKvdnAzrw7_tHLDZxPH107WRx6X44xP7wlEyU2nX87KdV2sbZGsqfzOE
 
 /* CLONE HTML */
 https://thec8.com/
