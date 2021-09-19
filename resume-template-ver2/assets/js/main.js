@@ -191,6 +191,7 @@ var getImage2 = document.getElementsByClassName("img-container")[1];
 var getImage3 = document.getElementsByClassName("img-container")[2];
 var getImage4 = document.getElementsByClassName("img-container")[3];
 var getImage5 = document.getElementsByClassName("img-container")[4];
+var getImage6 = document.getElementsByClassName("img-container")[5];
 
 function imageIn(img) {
   img.style.opacity = "1";

@@ -1,6 +1,6 @@
 const cursor = document.querySelector("#cursor");
 (anchor = document.querySelectorAll(
-  ".nav__logo, .nav__link, .project__image, .projectWork-next-link, .projectWork2-next-link, .projectWork3-next-link, .projectWork4-next-link, .project__container-link"
+  ".nav__logo, .nav__link, .project__image, .projectWork-next-link, .project__container-link"
 )),
   document.addEventListener("mousemove", (e) => {
     let t = e.clientX,
@@ -34,17 +34,15 @@ var textWrapper = document.querySelector(".anime-js-title");
   /\S/g,
   "<span class='letter'>$&</span>"
 )),
-  anime
-    .timeline()
-    .add({
-      targets: ".anime-js-title .letter",
-      translateY: [60, 0],
-      translateZ: 0,
-      opacity: [0, 1],
-      easing: "easeOutExpo",
-      duration: 1200,
-      delay: (e, t) => 600 + 30 * t,
-    }),
+  anime.timeline().add({
+    targets: ".anime-js-title .letter",
+    translateY: [60, 0],
+    translateZ: 0,
+    opacity: [0, 1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: (e, t) => 600 + 30 * t,
+  }),
   TweenMax.from(".project__container-subtitle", 2, {
     y: 10,
     opacity: 0,

@@ -358,12 +358,13 @@ path {
 .project__img,
 .project__img2,
 .project__img3,
-.project__img4 {
+.project__img4,
+.project__img5 {
   border-radius: 2px;
   transform: perspective(1200px);
 }
 .project__list--1::after {
-  content: "Phu Resume";
+  content: "Phu Nguyen Portfolio";
   font-family: var(--Glysa-font) !important;
   font-size: var(--biggest-font-size);
   position: relative;
@@ -377,7 +378,7 @@ path {
   mix-blend-mode: difference;
 }
 .project__list--2::after {
-  content: "Health Info";
+  content: "Sol Store";
   font-family: var(--Glysa-font) !important;
   font-size: var(--biggest-font-size);
   position: relative;
@@ -391,7 +392,7 @@ path {
   mix-blend-mode: difference;
 }
 .project__list--3::after {
-  content: "Vlu Wallet";
+  content: "Phu Resume";
   font-family: var(--Glysa-font) !important;
   font-size: var(--biggest-font-size);
   position: relative;
@@ -405,7 +406,7 @@ path {
   mix-blend-mode: difference;
 }
 .project__list--4::after {
-  content: "Cafe Racer";
+  content: "Urbanears";
   font-family: var(--Glysa-font) !important;
   font-size: var(--biggest-font-size);
   position: relative;
@@ -418,6 +419,21 @@ path {
   font-weight: var(--font-bold);
   mix-blend-mode: difference;
 }
+.project__list--5::after {
+    content: "Cafe Racer";
+    font-family: var(--Glysa-font) !important;
+    font-size: var(--biggest-font-size);
+    position: relative;
+    color: var(--white-color);
+    top: -92%;
+    left: 20%;
+    right: 0;
+    bottom: 0;
+    z-index: var(--z-tooltip);
+    font-weight: var(--font-bold);
+    mix-blend-mode: difference;
+}
+
 @media (max-width: 768px) {
   .project {
     width: 90% !important;
@@ -513,7 +529,7 @@ path {
     height: 100px;
   }
   #js-scroll-index {
-    min-height: 420vh;
+    min-height: 450vh;
   }
 }
 @media screen and (min-width: 600px) {
@@ -536,7 +552,7 @@ path {
     bottom: 25px;
   }
   #js-scroll-index {
-    min-height: 450vh;
+    min-height: 480vh;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -578,12 +594,12 @@ path {
     overflow: hidden;
   }
   #js-scroll-index {
-    min-height: 400vh;
+    min-height: 450vh;
   }
 }
 @media screen and (min-width: 1200px) {
   #js-scroll-index {
-    min-height: 700vh;
+    min-height: 780vh;
   }
 }
 .about__container {
@@ -704,17 +720,49 @@ p.about__container-link {
   padding: 40px 0;
 }
 .project__image {
-  width: 600px;
-  height: 500px;
+  width: 700px;
+  height: 600px;
   margin: 40px auto;
   border-radius: 2px;
 }
+
 .projectWork1__image-1 {
+    background: url(../img/portfolio/img-one.png);
+    background-size: cover;
+    width: 700px;
+  }
+  .projectWork1__image-2 {
+    background: url(../img/portfolio/img-two.png);
+    background-size: cover;
+    position: relative;
+    top: -100px;
+    left: -250px;
+    width: 700px;
+    height: 600px;
+  }
+  .projectWork1__image-3 {
+    background: url(../img/portfolio/img-three.png);
+    background-size: cover;
+    position: relative;
+    left: 300px;
+    width: 700px;
+  }
+  .projectWork1__image-4 {
+    background: url(../img/portfolio/img-four.png);
+    background-size: cover;
+    position: relative;
+    top: -200px;
+    left: -100px;
+    width: 700px;
+    height: 600px;
+  }
+
+.projectWork3__image-1 {
   background: url(../img/resume/img-one.png);
   background-size: cover;
   width: 700px;
 }
-.projectWork1__image-2 {
+.projectWork3__image-2 {
   background: url(../img/resume/img-two.png);
   background-size: cover;
   position: relative;
@@ -723,14 +771,14 @@ p.about__container-link {
   width: 600px;
   height: 600px;
 }
-.projectWork1__image-3 {
+.projectWork3__image-3 {
   background: url(../img/resume/img-three.png);
   background-size: cover;
   position: relative;
   left: 300px;
   width: 700px;
 }
-.projectWork1__image-4 {
+.projectWork3__image-4 {
   background: url(../img/resume/img-four.png);
   background-size: cover;
   position: relative;
@@ -741,6 +789,7 @@ p.about__container-link {
 }
 .projectWork-next-link {
   position: relative;
+  margin-top: 300px;
 }
 .projectWork-next-link img {
   width: 850px;
@@ -767,96 +816,73 @@ p.about__container-link {
   mix-blend-mode: difference;
 }
 .projectWork2__image-1 {
-  background: url(../img/health/img-one.png);
+  background: url(../img/solstore/img-one.png);
   background-size: cover;
-  width: 800px;
-  height: 550px;
+  width: 700px;
+  height: 600px;
 }
 .projectWork2__image-2 {
-  background: url(../img/health/img-two.png);
+  background: url(../img/solstore/img-two.png);
   background-size: cover;
   position: relative;
   top: -100px;
   left: -250px;
-  width: 680px;
+  width: 700px;
 }
 .projectWork2__image-3 {
-  background: url(../img/health/img-three.png);
+  background: url(../img/solstore/img-three.png);
   background-size: cover;
   position: relative;
   left: 300px;
-  width: 680px;
+  width: 700px;
 }
 .projectWork2__image-4 {
-  background: url(../img/health/img-four.png);
-  background-size: cover;
-  position: relative;
-  top: -200px;
-  left: -100px;
-  width: 680px;
-}
-.projectWork2-next-link:hover::before {
-  content: "";
-  z-index: -1;
-  width: 800px;
-  height: 550px;
-  display: block;
-  position: absolute;
-  top: 0;
-  background: url(../img/sign.png);
-  background-size: cover;
-  transition: 1s;
-  animation: fade-in 2s ease-in-out;
-}
-.projectWork3__image-1 {
-  background: url(../img/wallet/img-one.png);
-  background-size: cover;
-  width: 700px;
-}
-.projectWork3__image-2 {
-  background: url(../img/wallet/img-two.png);
-  background-size: cover;
-  position: relative;
-  top: -100px;
-  left: -250px;
-  width: 700px;
-}
-.projectWork3__image-3 {
-  background: url(../img/wallet/img-three.png);
-  background-size: cover;
-  position: relative;
-  left: 300px;
-  width: 700px;
-}
-.projectWork3__image-4 {
-  background: url(../img/wallet/img-four.png);
+  background: url(../img/solstore/img-four.png);
   background-size: cover;
   position: relative;
   top: -200px;
   left: -100px;
   width: 700px;
 }
-.projectWork3-next-link:hover::before {
-  content: "";
-  z-index: -1;
-  width: 800px;
-  height: 550px;
-  display: block;
-  position: absolute;
-  top: 0;
-  background: url(../img/wall4.png);
-  background-size: cover;
-  transition: 1s;
-  animation: fade-in 2s ease-in-out;
-}
+
 .projectWork4__image-1 {
+    background: url(../img/urbanears/img-one.png);
+    background-size: cover;
+    width: 700px;
+    height: 600px;
+  }
+  .projectWork4__image-2 {
+    background: url(../img/urbanears/img-two.png);
+    background-size: cover;
+    position: relative;
+    top: -100px;
+    left: -250px;
+    width: 700px;
+  }
+  .projectWork4__image-3 {
+    background: url(../img/urbanears/img-three.png);
+    background-size: cover;
+    position: relative;
+    left: 300px;
+    width: 700px;
+  }
+  .projectWork4__image-4 {
+    background: url(../img/urbanears/img-four.png);
+    background-size: cover;
+    position: relative;
+    top: -200px;
+    left: -100px;
+    width: 700px;
+  }
+
+.projectWork5__image-1 {
   background: url(../img/cafe/img-one.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 900px;
   height: 520px;
 }
-.projectWork4__image-2 {
+.projectWork5__image-2 {
   background: url(../img/cafe/img-two.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -866,7 +892,7 @@ p.about__container-link {
   width: 900px;
   height: 520px;
 }
-.projectWork4__image-3 {
+.projectWork5__image-3 {
   background: url(../img/cafe/img-three.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -875,7 +901,7 @@ p.about__container-link {
   width: 900px;
   height: 500px;
 }
-.projectWork4__image-4 {
+.projectWork5__image-4 {
   background: url(../img/cafe/img-four.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -885,43 +911,7 @@ p.about__container-link {
   width: 900px;
   height: 520px;
 }
-.projectWork4-next-link:hover::before {
-  content: "";
-  z-index: -1;
-  width: 800px;
-  height: 550px;
-  display: block;
-  position: absolute;
-  top: 0;
-  background: url(../img/wall1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: 1s;
-  animation: fade-in 2s ease-in-out;
-}
-.projectWork1-next-link,
-.projectWork2-next-link,
-.projectWork3-next-link,
-.projectWork4-next-link {
-  position: relative;
-  top: -100px;
-  width: 100%;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.projectWork1-next-link a,
-.projectWork2-next-link a,
-.projectWork3-next-link a,
-.projectWork4-next-link a {
-  color: var(--white-color);
-  font-family: var(--Glysa-font) !important;
-  font-size: 10rem;
-  margin-top: 100px;
-  z-index: 2;
-  transition: 0.5s;
-}
+
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -941,7 +931,7 @@ p.about__container-link {
   line-height: 1em;
 }
 #js-scroll-project {
-  min-height: 320vh !important;
+  min-height: 380vh !important;
 }
 @media screen and (max-width: 480px) {
   .overlay h1 {
@@ -979,7 +969,11 @@ p.about__container-link {
   .projectWork4__image-1,
   .projectWork4__image-2,
   .projectWork4__image-3,
-  .projectWork4__image-4 {
+  .projectWork4__image-4,
+  .projectWork5__image-1,
+  .projectWork5__image-2,
+  .projectWork5__image-3,
+  .projectWork5__image-4 {
     position: relative;
     top: 0;
     left: 0;
@@ -996,18 +990,6 @@ p.about__container-link {
   .project__container-subtitle:last-child {
     margin-bottom: 0;
   }
-  .projectWork1-next-link a,
-  .projectWork2-next-link a,
-  .projectWork3-next-link a,
-  .projectWork4-next-link a {
-    font-size: 7rem;
-  }
-  .projectWork1-next-link:hover::before,
-  .projectWork2-next-link:hover::before,
-  .projectWork3-next-link:hover::before,
-  .projectWork4-next-link:hover::before {
-    display: none;
-  }
   .projectWork-next-link a {
     font-size: 7rem;
   }
@@ -1019,8 +1001,9 @@ p.about__container-link {
   .projectWork1__image-3,
   .projectWork2__image-3,
   .projectWork3__image-3,
-  .projectWork4__image-3 {
-    width: 600px;
+  .projectWork4__image-3,
+  .projectWork5__ima {
+    width: 700px;
     left: 200px;
   }
 }
@@ -1032,6 +1015,6 @@ p.about__container-link {
     padding: 0 15rem;
   }
   #js-scroll-project {
-    min-height: 480vh !important;
+    min-height: 500vh !important;
   }
 }
