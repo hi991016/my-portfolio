@@ -589,6 +589,10 @@ ul {
   font-size: 1.2vw;
 }
 
+.icon-download {
+  font-size: 1.2vw;
+}
+
 @media screen and (max-width: 579px) {
   .about {
     margin-top: 15vh;
@@ -615,6 +619,11 @@ ul {
   .about-text-one,
   .contact-text-one {
     margin-bottom: 2.5vw;
+  }
+  .icon-download {
+    display: block;
+    margin-top: 2.5vw;
+    font-size: 2.5vw;
   }
   .article-text-inner:nth-of-type(2),
   .article-text-inner:nth-of-type(3) {
