@@ -111,7 +111,7 @@ ul {
   opacity: 0.03;
   z-index: 1000;
   pointer-events: none;
-  background-image: url(../images/noise.gif);
+  background-image: url(../img/noise.gif);
 }
 .footer,
 .header {
@@ -189,8 +189,8 @@ ul {
   transform: scale(1);
 }
 .cursor {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   z-index: 999;
   background-color: #eaeaea;
 }
@@ -210,7 +210,7 @@ ul {
   justify-content: center;
   width: 48px;
   height: 48px;
-  border: 1px solid #eaeaea;
+  border: 2px solid #eaeaea;
   z-index: 998;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
