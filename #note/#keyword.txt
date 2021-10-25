@@ -53,6 +53,7 @@ https://docs.emmet.io/cheat-sheet/
 https://icons8.com/l/christmas-3d/
 https://www.manypixels.co/gallery
 https://undraw.co/illustrations
+https://iconscout.com/illustrations/peeps
 
 /* FLEXBOX
 https://codepen.io/enxaneta/full/adLPwv/
@@ -131,6 +132,10 @@ https://css-tricks.com/the-priority-navigation-pattern/?fbclid=IwAR0nKvdnAzrw7_t
 https://thec8.com/
 https://www.thomasvegetables.com/
 https://www.bentallon.com/
+https://media.karmanproject.org/return-to-earth/
+
+/* ĐẸP THẬT SỰ */
+https://www.giuliatonon.it/
 
 /* DEPLOY FIREBASE */
 npm install -g firebase-tools

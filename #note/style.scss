@@ -1,0 +1,84 @@
+// KHI DÙNG THÌ ==> @include midflex;
+
+@mixin midflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin midabs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin overtext($param: 3) {
+  display: -webkit-box;
+  -webkit-line-clamp: $param;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+// @include overtext(2); => quên truyền thì mâc định là 3
+
+@mixin styletext($ff: arial, $fs, $lh: normal, $tt: none, $cl) {
+  font-family: $ff;
+  font-size: $fs;
+  line-height: $lh;
+  text-transform: $tt;
+  color: $cl;
+}
+// @include styletext(arial, 1rem, 24px, uppercase, #000);
+
+.error {
+  border: 1px solid red;
+
+  &--serious {
+    @extend .error;
+    border-width: 2px;
+  }
+}
+// @extend là kế thừa thằng css .error để xài
+
+@mixin mid($abs: false) {
+  @if $abs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } @else {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+// @include mid(true) => abs || mid(false) => flex || mặc định là flex
+
+// ========== CẤU TRÚC FOLDER SCSS ============
+.scss {
+    .core {                 //cốt lỗi
+        _reset.scss
+        _variables.scss     //biến
+        _mixins.scss
+        _layout.scss        //body
+        _header.scss
+        _footer.scss
+        _nav.scss
+        _loading.scss
+        _elements.scss      //button, nút
+        _components.scss    //khối
+    }
+
+    .pages {
+        _home.scss
+        _about.scss
+        _contact.scss
+    }
+
+    style.scss              //file tổng
+}
+
+// @import 'core/reset';
+
+// container-width trong pts = bao nhieu thì cộng thêm trái phải 2 bên viền 15 
