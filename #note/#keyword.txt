@@ -96,6 +96,9 @@ https://minifycode.com/html-minifier/
 https://cssminifier.com/
 https://javascript-minifier.com/
 
+/* GRUNT */
+npm install --save-dev grunt load-grunt-tasks grunt-contrib-cssmin grunt-contrib-sass grunt-contrib-uglify grunt-browser-sync grunt-contrib-watch	
+
 /* CSS ANIMATE */
 https://codingui.dev/
 https://github.com/codrops/LettersAnimationLayout
