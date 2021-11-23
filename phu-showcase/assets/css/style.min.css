@@ -593,10 +593,9 @@ ul {
   font-size: 1.2vw;
 }
 .contact-sign img {
-  width: 550px;
-  height: 550px;
+  width: 500px;
   display: block;
-  margin: auto;
+  margin: 50px auto;
 }
 
 @media screen and (max-width: 579px) {
@@ -633,7 +632,6 @@ ul {
   }
   .contact-sign img {
     width: 70vw;
-    margin-top: -100px;
   }
   .article-text-inner:nth-of-type(2),
   .article-text-inner:nth-of-type(3) {
