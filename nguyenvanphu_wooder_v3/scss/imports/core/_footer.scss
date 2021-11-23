@@ -1,0 +1,38 @@
+// css footer
+.footer {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  background: $black-cl;
+  padding: 27.5px;
+  @include text(var(--body12-fs), pr, var(--body12-lh), $white-cl, uppercase);
+
+  &__logo {
+    color: $white-cl;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__back {
+    color: $white-cl;
+    cursor: pointer;
+  }
+
+  @include xxs {
+    .footer__logo {
+      position: initial;
+      @include transform(unset);
+    }
+  }
+  @include sm {
+    .container {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+}
