@@ -497,7 +497,10 @@ ul {
 #item4,
 #item5,
 #item6,
-#item7 {
+#item7,
+#item8,
+#item9,
+#item10 {
   position: absolute !important;
   top: 50% !important;
   left: 50% !important;
@@ -838,6 +841,6 @@ ul {
 @media screen and (min-width: 1400px) {
   .item-container {
     margin-top: 15vh;
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
   }
 }
