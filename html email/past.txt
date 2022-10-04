@@ -1,0 +1,1665 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <!--[if gte mso 9]><xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <!-- fix outlook zooming on 120 DPI windows devices -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>B.R.ONLINE</title>
+
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+            background-color: #ebebeb;
+        }
+
+        table {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        .yshortcuts a {
+            border-bottom: none !important;
+        }
+
+        .force-row,
+        .container {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        a[href^="x-apple-data-detectors:"],
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .force-row,
+        .container {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        .bronline-wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #f6f9fc;
+        }
+
+        .bronline-onlysp {
+            display: none;
+        }
+
+
+        @media (max-width: 480px) {
+            .bronline-container {
+                max-width: 100% !important;
+            }
+
+            .bronline-onlypc {
+                display: none !important;
+            }
+
+            .bronline-onlysp {
+                display: block !important;
+            }
+
+            /* feature */
+            .bronline-feature {
+                padding: 0 !important;
+                max-width: 100% !important;
+            }
+
+            .bronline-feature__item {
+                display: block !important;
+            }
+
+            .bronline-feature__content {
+                width: 100% !important;
+            }
+
+            .bronline-feature__gap {
+                height: 40px !important;
+            }
+
+            .bronline-feature__padding {
+                padding: 8px 10px 0 !important;
+            }
+
+            /* shop */
+            .bronline-shop__columns {
+                padding: 20px !important;
+            }
+
+            .bronline-shop__item.bronline-shop__item--first {
+                width: 100% !important;
+                padding: 20px 40px !important;
+            }
+            .bronline-shop__item.bronline-shop__item--last {
+                float: right !important;
+            }
+
+            .bronline-shop__item {
+                width: 47.5% !important;
+                padding-bottom: 20px;
+            }
+
+            .bronline-shop__gap {
+                width: 20px !important;
+            }
+
+            /* banner */
+            .bronline-banner1 {
+                width: max-content !important;
+                padding: 48px 0 45px !important;
+            }
+
+            .bronline-banner2__item {
+                display: block !important;
+            }
+
+            .bronline-banner2 {
+                padding: 0 !important;
+            }
+
+            .bronline-banner2__gap {
+                display: block !important;
+                width: 100% !important;
+                height: 10px !important;
+            }
+
+            /* snap */
+            .bronline-snap__heading {
+                padding: 0 20px !important;
+            }
+
+            .bronline-snap__columns {
+                padding: 20px !important;
+            }
+
+            .bronline-snap__item {
+                width: 47.5% !important;
+            }
+
+            .bronline-snap__gap {
+                display: block !important;
+                width: 100% !important;
+                height: 20px !important;
+            }
+
+            .bronline-snap__item.bronline-snap__item--odd {
+                float: right !important;
+            }
+
+            /* coupon */
+            .bronline-coupon {
+                width: max-content !important;
+                padding: 40px 20px !important;
+            }
+
+            /* footer */
+            .bronline-footer__content {
+                padding: 0 20px !important;
+            }
+
+            .bronline-footer__subscribe {
+                width: 30% !important;
+            }
+
+            .bronline-snap__padding {
+                display: inline-block !important;
+            }
+        }
+    </style>
+</head>
+
+<body
+    style="margin:0; padding:0; color: #000; font-family: Hiragino Sans, 'ヒラギノ角ゴシック', YuGothic, Yu Gothic, Meiryo, sans-serif;"
+    bgcolor="#fff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+    <!-- wrapper -->
+    <table align="center" border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#fff"
+        style="width: 100%; max-width: 800px;">
+        <tr>
+            <td align="center" valign="top" bgcolor="#fff" style="background-color: #fff;">
+
+                <!-- top -->
+                <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ccc"
+                    style="width: 100%; background-color: #ccc; border-bottom: 5px #000031 solid;">
+                    <tr>
+                        <td align="center" valign="middle" style="font-size: 11px; height: 45px;">
+                            このメッセージがご覧になれない場合はこちら
+                        </td>
+                    </tr>
+                </table>
+                <!-- end top -->
+
+                <!-- logo -->
+                <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff"
+                    style="width: 100%; background-color: #fff;">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                style="width: 100%; max-width: 800px;" class="bronline-container">
+                                <tr>
+                                    <td align="center" valign="middle"
+                                        style="line-height: 0; font-size: 0; height: 85px;">
+                                        <a href="https://www.bronline.jp/" target="_blank">
+                                            <img src="img/logo.svg" alt="B.R.ONLINE" border="0" alt="ねこと生活" hspace="0"
+                                                vspace="0" width="auto" height="auto">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- end logo -->
+
+                <!-- feature -->
+                <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ECECEF"
+                    class="bronline-feature"
+                    style="width: 100%; max-width: 800px; background-color: #ECECEF; padding: 0 40px; margin: 0;">
+                    <tr>
+                        <td valign="top">
+                            <!-- feature heading -->
+                            <table border="0" align="center" width="100%" cellpadding="0" cellspacing="0"
+                                style="width: 100%; max-width: 800px; padding-top: 40px;">
+                                <tr>
+                                    <td align="center" valign="middle">
+                                        <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                            style="width: 100%; font-family: Times, serif; font-size: 16px; color: #72738A;">
+                                            <tr>
+                                                <td align="center" valign="middle">B.R.ONLINE NEWS</td>
+                                            </tr>
+                                        </table>
+                                        <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                            style="width: 100%; font-size: 18px; font-weight: 600;">
+                                            <tr>
+                                                <td align="center" valign="middle">注目の記事とアイテムを一挙にご紹介
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                            style="width: 100%; font-size: 13px; font-weight: 300; color: #a2a3b2;">
+                                            <tr>
+                                                <td align="center" valign="middle">2022年8月8日週</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- end feature heading -->
+
+                            <!-- feature item 1 -->
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                style="width: 100%; max-width: 800px; padding-top: 40px; padding-bottom: 40px;">
+                                <tr>
+                                    <td valign="top">
+                                        <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td>
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <a href="#" target="_blank">
+                                                                    <img src="https://iili.io/sFXocg.jpg"
+                                                                        alt="トガオシ。Vol.227" width="100%">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                                        style="width: 100%; font-family: 'Hiragino Mincho ProN', serif; font-size: 12px; color: #72738A; padding-top: 5px;"
+                                                        class="bronline-feature__padding">
+                                                        <tr>
+                                                            <td align="left" valign="top">
+                                                                <a href="#" target="_blank" style="color: #72738A;">
+                                                                    トガオシ。Vol.227
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                                        style="width: 100%; font-size: 14px; font-weight: 600; padding-top: 5px;"
+                                                        class="bronline-feature__padding">
+                                                        <tr>
+                                                            <td align="left" valign="top">
+                                                                <a href="#" target="_blank" style="color: #000;">
+                                                                    レザーを着慣れた大人のための<br>カシミアコンビライダース
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- end feature item 2 -->
+
+                            <!-- feature columns -->
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                class="bronline-feature__columns"
+                                style="width: 100%; max-width: 800px; padding-bottom: 40px;">
+                                <tr>
+                                    <td valign="top" class="bronline-feature__item">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="340"
+                                            class="bronline-feature__content">
+                                            <tr>
+                                                <td>
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                                        style="width: 100%;">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <a href="#" target="_blank">
+                                                                    <img src="https://iili.io/sFXocg.jpg"
+                                                                        alt="トガオシ。Vol.227" width="100%">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                                        style="width: 100%; font-family: 'Hiragino Mincho ProN', serif; font-size: 12px; color: #72738A; font-weight: 300; padding-top: 5px;"
+                                                        class="bronline-feature__padding">
+                                                        <tr>
+                                                            <td align="left" valign="top">
+                                                                <a href="#" target="_blank" style="color: #72738A;">
+                                                                    トガオシ。Vol.227
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                                        style="width: 100%; font-size: 14px; font-weight: 600; padding-top: 5px;"
+                                                        class="bronline-feature__padding">
+                                                        <tr>
+                                                            <td align="left" valign="top">
+                                                                <a href="#" target="_blank" style="color: #000;">
+                                                                    レザーを着慣れた大人のための<br>カシミアコンビライダース
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td valign="top" class="bronline-feature__item bronline-feature__gap">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="40"
+                                            class="bronline-feature__content">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td align="right" valign="top" class="bronline-feature__item">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="340"
+                                            class="bronline-feature__content">
+                                            <tr>
+                                                <td>
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                                        style="width: 100%;">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <a href="#" target="_blank">
+                                                                    <img src="https://iili.io/sFXocg.jpg"
+                                                                        alt="トガオシ。Vol.227" width="100%">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                                        style="width: 100%; font-family: 'Hiragino Mincho ProN', serif; font-size: 12px; color: #72738A; font-weight: 300; padding-top: 5px;"
+                                                        class="bronline-feature__padding">
+                                                        <tr>
+                                                            <td align="left" valign="top">
+                                                                <a href="#" target="_blank" style="color: #72738A;">
+                                                                    トガオシ。Vol.227
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                                        style="width: 100%; font-size: 14px; font-weight: 600; padding-top: 5px;"
+                                                        class="bronline-feature__padding">
+                                                        <tr>
+                                                            <td align="left" valign="top">
+                                                                <a href="#" target="_blank" style="color: #000;">
+                                                                    レザーを着慣れた大人のための<br>カシミアコンビライダース
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- end feature columns -->
+                        </td>
+                    </tr>
+                </table>
+                <!-- end feature -->
+
+                <!-- shop -->
+                <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ECECEF"
+                    class="bronline-shop" style="width: 100%;">
+                    <!-- b.r.shop -->
+                    <tr>
+                        <td valign="top">
+                            <!-- brand -->
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                                bgcolor="#72738A" style="width: 100%; background-color: #72738A;">
+                                <tr>
+                                    <td align="center" valign="middle">
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="center" valign="middle" style="height: 60px;">
+                                                    <img src="img/shop-logo-1.svg" alt="B.R.ONLINE" width="auto">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- end brand -->
+
+                            <!-- list product -->
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                class="bronline-shop__columns"
+                                style="width: 100%; max-width: 100%; padding: 40px 38px;">
+                                <tr>
+                                    <td valign="top" width="100%" border="0">
+                                        <!-- first -->
+                                        <table width="213" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item bronline-shop__item--first">
+                                            <tr>
+                                                <td width="100%" align="left">
+                                                    <a href="#" target="_blank">
+                                                        <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                            width="100%">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center" style="padding-top: 10px;">
+                                                    <a href="#" target="_blank"
+                                                        style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                        CRUCIANI
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center">
+                                                    <a href="#" target="_blank" style="font-size: 12px; color: #888;">
+                                                        ¥130,680
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table width="40" class="bronline-shop__gap bronline-onlypc" align="left"
+                                            border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="213" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item">
+                                            <tr>
+                                                <td width="100%" align="left">
+                                                    <a href="#" target="_blank">
+                                                        <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                            width="100%">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center" style="padding-top: 10px;">
+                                                    <a href="#" target="_blank"
+                                                        style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                        CRUCIANI
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center">
+                                                    <a href="#" target="_blank" style="font-size: 12px; color: #888;">
+                                                        ¥130,680
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table width="40" class="bronline-shop__gap bronline-onlypc" align="left" border="0"
+                                            cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="213" align="right" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="100%" align="left">
+                                                        <a href="#" target="_blank">
+                                                            <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                                width="100%">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center" style="padding-top: 10px;">
+                                                        <a href="#" target="_blank"
+                                                            style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                            CRUCIANI
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center">
+                                                        <a href="#" target="_blank"
+                                                            style="font-size: 12px; color: #888;">
+                                                            ¥130,680
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <!-- second -->
+                                        <table width="100%" class="bronline-onlypc">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="213" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="100%" align="left">
+                                                        <a href="#" target="_blank">
+                                                            <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                                width="100%">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center" style="padding-top: 10px;">
+                                                        <a href="#" target="_blank"
+                                                            style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                            CRUCIANI
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center">
+                                                        <a href="#" target="_blank"
+                                                            style="font-size: 12px; color: #888;">
+                                                            ¥130,680
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table width="40" class="bronline-shop__gap bronline-onlypc" align="left" border="0"
+                                            cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="213" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item bronline-shop__item--last">
+                                            <tr>
+                                                <td width="100%" align="left">
+                                                    <a href="#" target="_blank">
+                                                        <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                            width="100%">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center" style="padding-top: 10px;">
+                                                    <a href="#" target="_blank"
+                                                        style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                        CRUCIANI
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center">
+                                                    <a href="#" target="_blank" style="font-size: 12px; color: #888;">
+                                                        ¥130,680
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table width="40" class="bronline-shop__gap bronline-onlypc" align="left"
+                                            border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="213" align="right" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="100%" align="left">
+                                                        <a href="#" target="_blank">
+                                                            <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                                width="100%">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center" style="padding-top: 10px;">
+                                                        <a href="#" target="_blank"
+                                                            style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                            CRUCIANI
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center">
+                                                        <a href="#" target="_blank"
+                                                            style="font-size: 12px; color: #888;">
+                                                            ¥130,680
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <!-- third -->
+                                        <table width="100%" class="bronline-onlypc">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="213" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="100%" align="left">
+                                                        <a href="#" target="_blank">
+                                                            <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                                width="100%">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center" style="padding-top: 10px;">
+                                                        <a href="#" target="_blank"
+                                                            style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                            CRUCIANI
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center">
+                                                        <a href="#" target="_blank"
+                                                            style="font-size: 12px; color: #888;">
+                                                            ¥130,680
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- end list product -->
+                        </td>
+                    </tr>
+                    <!-- end b.r.shop -->
+
+                    <!-- isetan mens -->
+                    <tr>
+                        <td valign="top">
+                            <!-- brand -->
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#000"
+                                style="width: 100%; background-color: #000;">
+                                <tr>
+                                    <td align="center" valign="middle">
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="center" valign="middle" style="height: 60px;">
+                                                    <img src="img/shop-logo-2.svg" alt="ISETAN MENS" width="auto">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- end brand -->
+
+                            <!-- list product -->
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                class="bronline-shop__columns"
+                                style="width: 100%; max-width: 100%; padding: 40px 38px;">
+                                <tr>
+                                    <td valign="top" width="100%" border="0">
+                                        <!-- first -->
+                                        <table width="213" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item bronline-shop__item--first">
+                                            <tr>
+                                                <td width="100%" align="left">
+                                                    <a href="#" target="_blank">
+                                                        <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                            width="100%">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center" style="padding-top: 10px;">
+                                                    <a href="#" target="_blank"
+                                                        style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                        CRUCIANI
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center">
+                                                    <a href="#" target="_blank" style="font-size: 12px; color: #888;">
+                                                        ¥130,680
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table width="40" class="bronline-shop__gap bronline-onlypc" align="left"
+                                            border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="213" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item">
+                                            <tr>
+                                                <td width="100%" align="left">
+                                                    <a href="#" target="_blank">
+                                                        <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                            width="100%">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center" style="padding-top: 10px;">
+                                                    <a href="#" target="_blank"
+                                                        style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                        CRUCIANI
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center">
+                                                    <a href="#" target="_blank" style="font-size: 12px; color: #888;">
+                                                        ¥130,680
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table width="40" class="bronline-shop__gap bronline-onlypc" align="left" border="0"
+                                            cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="213" align="right" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="100%" align="left">
+                                                        <a href="#" target="_blank">
+                                                            <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                                width="100%">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center" style="padding-top: 10px;">
+                                                        <a href="#" target="_blank"
+                                                            style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                            CRUCIANI
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center">
+                                                        <a href="#" target="_blank"
+                                                            style="font-size: 12px; color: #888;">
+                                                            ¥130,680
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <!-- second -->
+                                        <table width="100%" class="bronline-onlypc">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="213" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="100%" align="left">
+                                                        <a href="#" target="_blank">
+                                                            <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                                width="100%">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center" style="padding-top: 10px;">
+                                                        <a href="#" target="_blank"
+                                                            style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                            CRUCIANI
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="100%" align="center">
+                                                        <a href="#" target="_blank"
+                                                            style="font-size: 12px; color: #888;">
+                                                            ¥130,680
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table width="40" class="bronline-shop__gap bronline-onlypc" align="left" border="0"
+                                            cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table width="213" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item bronline-shop__item--last">
+                                            <tr>
+                                                <td width="100%" align="left">
+                                                    <a href="#" target="_blank">
+                                                        <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                            width="100%">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center" style="padding-top: 10px;">
+                                                    <a href="#" target="_blank"
+                                                        style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                        CRUCIANI
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center">
+                                                    <a href="#" target="_blank" style="font-size: 12px; color: #888;">
+                                                        ¥130,680
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- end list product -->
+                        </td>
+                    </tr>
+                    <!-- end isetan mens -->
+
+                    <!-- aoure -->
+                    <tr>
+                        <td valign="top">
+                            <!-- brand -->
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#000"
+                                style="width: 100%; background-color: #000;">
+                                <tr>
+                                    <td align="center" valign="middle">
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="center" valign="middle" style="height: 60px;">
+                                                    <img src="img/shop-logo-3.svg" alt="AOURE" width="auto">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- end brand -->
+
+                            <!-- list product -->
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                class="bronline-shop__columns"
+                                style="width: 100%; max-width: 100%; padding: 40px 38px;">
+                                <tr>
+                                    <td valign="top" width="100%" border="0">
+                                        <!-- first -->
+                                        <table width="213" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            class="bronline-shop__item bronline-shop__item--first">
+                                            <tr>
+                                                <td width="100%" align="left">
+                                                    <a href="#" target="_blank">
+                                                        <img src="https://iili.io/sFXqMP.jpg" alt="Product"
+                                                            width="100%">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center" style="padding-top: 10px;">
+                                                    <a href="#" target="_blank"
+                                                        style="font-family: Times, serif; font-size: 14px; color: #000; font-weight: bold; line-height: 1.5; padding: 10px 0 0; color: #000;">
+                                                        CRUCIANI
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center">
+                                                    <a href="#" target="_blank" style="font-size: 12px; color: #888;">
+                                                        ¥130,680
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- end list product -->
+                        </td>
+                    </tr>
+                    <!-- end aoure -->
+                </table>
+                <!-- end shop -->
+
+                <!-- banner 1 -->
+                <table class="bronline-banner1" border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                    bgcolor="#fff" style="padding: 60px 40px;">
+                    <tr>
+                        <td align="center" width="100%">
+                            <table width="100%" class="bronline-onlypc">
+                                <tr>
+                                    <td align="center" width="100%">
+                                        <a href="#" target="_blank">
+                                            <img src="img/banner-1.jpg" alt="2022 AUTUMN & WINTER" width="auto">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="100%" class="bronline-onlysp">
+                                <tr>
+                                    <td align="center" width="100%">
+                                        <a href="#" target="_blank">
+                                            <img src="img/banner-1-sp.jpg" alt="2022 AUTUMN & WINTER" width="auto"
+                                                class="bronline-onlysp">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                    </tr>
+                </table>
+                <!-- end banner 1 -->
+
+                <!-- snap -->
+                <table class="bronline-snap" border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                    bgcolor="#fff">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <!-- heading-->
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                            style="width: 100%; padding: 0 40px;" class="bronline-snap__heading">
+                                            <tr>
+                                                <td align="center" valign="top">
+                                                    <!-- brand -->
+                                                    <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                                        align="center">
+                                                        <tr>
+                                                            <td align="center" valign="middle"
+                                                                style="font-family: Times, serif; font-size: 18px; color: #454765;border-top: 3px solid #454765; text-transform: uppercase; padding-top: 25px; letter-spacing: 1px;">
+                                                                stye snap
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- end heading -->
+
+                                        <!-- list product -->
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                            class="bronline-container">
+                                            <tr>
+                                                <td align="center" valign="top">
+                                                    <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                                        class="bronline-container bronline-snap__columns"
+                                                        style="padding: 40px 35px;">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <table width="165" class="bronline-snap__item"
+                                                                    align="left" border="0" cellpadding="0"
+                                                                    cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank">
+                                                                                    <img src="https://iili.io/sFXBP1.jpg"
+                                                                                        alt="snap" width="100%">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left"
+                                                                                style="padding-top: 10px;">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-family: Hiragino Mincho ProN, serif; font-size: 12px; color: #72738A; font-weight: 300; line-height: 1.5; padding: 13px 0 10px;">
+                                                                                    biglietta
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-size: 12px; color: #000;">
+                                                                                    RECOMMEND STYLE 2022秋冬 VOL.5
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table width="20" class="bronline-onlypc" align="left" border="0"
+                                                                    cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td>&nbsp;</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <table width="165" class="bronline-snap__item bronline-snap__item--odd"
+                                                                    align="left" border="0" cellpadding="0"
+                                                                    cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank">
+                                                                                    <img src="https://iili.io/sFXnKF.jpg"
+                                                                                        alt="snap" width="100%">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left"
+                                                                                style="padding-top: 10px;">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-family: Hiragino Mincho ProN, serif; font-size: 12px; color: #72738A; font-weight: 300; line-height: 1.5; padding: 13px 0 10px;">
+                                                                                    B.R.SHOP
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-size: 12px; color: #000;">
+                                                                                    MOVBの6Bセットアップ
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+
+                                                                <table width="20" align="left" border="0"
+                                                                    cellpadding="0" cellspacing="0"
+                                                                    class="bronline-snap__gap">
+                                                                    <tr>
+                                                                        <td>&nbsp;</td>
+                                                                    </tr>
+                                                                </table>
+
+                                                                <table width="165" class="bronline-snap__item"
+                                                                    align="left" border="0" cellpadding="0"
+                                                                    cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank">
+                                                                                    <img src="https://iili.io/sFXBP1.jpg"
+                                                                                        alt="snap" width="100%">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left"
+                                                                                style="padding-top: 10px;">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-family: Hiragino Mincho ProN, serif; font-size: 12px; color: #72738A; font-weight: 300; line-height: 1.5; padding: 13px 0 10px;">
+                                                                                    biglietta
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-size: 12px; color: #000;">
+                                                                                    RECOMMEND STYLE 2022秋冬 VOL.5
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table width="20" class="bronline-onlypc" align="left" border="0"
+                                                                    cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td>&nbsp;</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <table width="165" class="bronline-snap__item bronline-snap__item--odd"
+                                                                    align="left" border="0" cellpadding="0"
+                                                                    cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank">
+                                                                                    <img src="https://iili.io/sFXnKF.jpg"
+                                                                                        alt="snap" width="100%">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left"
+                                                                                style="padding-top: 10px;">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-family: Hiragino Mincho ProN, serif; font-size: 12px; color: #72738A; font-weight: 300; line-height: 1.5; padding: 13px 0 10px;">
+                                                                                    B.R.SHOP
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-size: 12px; color: #000;">
+                                                                                    MOVBの6Bセットアップ
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- end list product -->
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- end snap -->
+
+                <!-- blog -->
+                <table class="bronline-container" border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                    bgcolor="#fff">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <!-- heading-->
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                            style="width: 100%; padding: 0 40px;" class="bronline-snap__heading">
+                                            <tr>
+                                                <td align="center" valign="top">
+                                                    <!-- brand -->
+                                                    <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                                        align="center">
+                                                        <tr>
+                                                            <td align="center" valign="middle"
+                                                                style="font-family: Times, serif; font-size: 18px; color: #454765;border-top: 3px solid #454765; text-transform: uppercase; padding-top: 25px; letter-spacing: 1px;">
+                                                                blog
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- end heading -->
+
+                                        <!-- list product -->
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                            class="bronline-container">
+                                            <tr>
+                                                <td align="center" valign="top">
+                                                    <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                                        class="bronline-container bronline-snap__columns"
+                                                        style="padding: 40px 35px;">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <table width="165" class="bronline-snap__item"
+                                                                    align="left" border="0" cellpadding="0"
+                                                                    cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank">
+                                                                                    <img src="https://iili.io/sFXFtV.jpg"
+                                                                                        alt="blog" width="100%">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left"
+                                                                                style="padding-top: 10px;">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-family: Hiragino Mincho ProN, serif; font-size: 12px; color: #72738A; font-weight: 300; line-height: 1.5; padding: 13px 0 10px;">
+                                                                                    モリブロ。
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-size: 12px; color: #000;">
+                                                                                    B.R.CHANNELの収録でした
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table width="20" class="bronline-onlypc" align="left" border="0"
+                                                                    cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td>&nbsp;</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <table width="165" class="bronline-snap__item bronline-snap__item--odd"
+                                                                    align="left" border="0" cellpadding="0"
+                                                                    cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank">
+                                                                                    <img src="https://iili.io/sFXfoB.jpg"
+                                                                                        alt="blog" width="100%">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left"
+                                                                                style="padding-top: 10px;">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-family: Hiragino Mincho ProN, serif; font-size: 12px; color: #72738A; font-weight: 300; line-height: 1.5; padding: 13px 0 10px;">
+                                                                                    1piu1uguale3
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-size: 12px; color: #000;">
+                                                                                    NECK-TIE SILK
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+
+                                                                <table width="20" align="left" border="0"
+                                                                    cellpadding="0" cellspacing="0"
+                                                                    class="bronline-snap__gap">
+                                                                    <tr>
+                                                                        <td>&nbsp;</td>
+                                                                    </tr>
+                                                                </table>
+
+                                                                <table width="165" class="bronline-snap__item"
+                                                                    align="left" border="0" cellpadding="0"
+                                                                    cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank">
+                                                                                    <img src="https://iili.io/sFXFtV.jpg"
+                                                                                        alt="blog" width="100%">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left"
+                                                                                style="padding-top: 10px;">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-family: Hiragino Mincho ProN, serif; font-size: 12px; color: #72738A; font-weight: 300; line-height: 1.5; padding: 13px 0 10px;">
+                                                                                    モリブロ。
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-size: 12px; color: #000;">
+                                                                                    B.R.CHANNELの収録でした
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table width="20" class="bronline-onlypc" align="left" border="0"
+                                                                    cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td>&nbsp;</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <table width="165" class="bronline-snap__item bronline-snap__item--odd"
+                                                                    align="left" border="0" cellpadding="0"
+                                                                    cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank">
+                                                                                    <img src="https://iili.io/sFXfoB.jpg"
+                                                                                        alt="blog" width="100%">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left"
+                                                                                style="padding-top: 10px;">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-family: Hiragino Mincho ProN, serif; font-size: 12px; color: #72738A; font-weight: 300; line-height: 1.5; padding: 13px 0 10px;">
+                                                                                    1piu1uguale3
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="100%" align="left">
+                                                                                <a href="#" target="_blank"
+                                                                                    style="font-size: 12px; color: #000;">
+                                                                                    NECK-TIE SILK
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- end list product -->
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- end blog -->
+
+                <!-- banner 2 -->
+                <table class="bronline-banner2" border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                    bgcolor="#fff" style="padding: 0 40px;">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0"
+                                class="bronline-banner2__columns" style="width: 100%; max-width: 800px;">
+                                <tr>
+                                    <td class="bronline-banner2__item" valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                            class="bronline-banner2__content">
+                                            <tr>
+                                                <td>
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                                        style="width: 100%;">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <a href="#" target="_blank">
+                                                                    <img src="https://iili.io/sFXd9j.jpg"
+                                                                        alt="THE CASHMERE" width="100%"
+                                                                        class="bronline-banner2__img">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td valign="top" class="bronline-banner2__gap">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="20">
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td class="bronline-banner2__item" valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                            class="bronline-banner2__content">
+                                            <tr>
+                                                <td>
+                                                    <table border="0" width="100%" cellspacing="0" cellpadding="0"
+                                                        style="width: 100%;">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <a href="#" target="_blank">
+                                                                    <img src="https://iili.io/sFXH8b.jpg"
+                                                                        alt="SUMMER ESSENTIALS" width="100%"
+                                                                        class="bronline-banner2__img">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- end banner 2 -->
+
+                <!-- coupon -->
+                <table class="bronline-coupon" border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                    bgcolor="#fff" style="padding: 40px;">
+                    <tr>
+                        <td align="center" width="100%">
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0" class="bronline-onlypc">
+                                <tr>
+                                    <td align="center" width="100%">
+                                        <a href="#" target="_blank">
+                                            <img src="img/line.jpg" alt="COUPON" width="100%">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0" class="bronline-onlysp">
+                                <tr>
+                                    <td align="center" width="100%">
+                                        <a href="#" target="_blank">
+                                            <img src="img/line-sp.jpg" alt="COUPON" width="100%">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                    </tr>
+                </table>
+                <!-- end coupon -->
+
+                <!-- footer -->
+                <table class="bronline-footer" width="100%" border="0" width="100%" cellpadding="0" cellspacing="0"
+                    align="center" bgcolor="#454765">
+                    <tr>
+                        <td class="bronline-footer__wrapper">
+                            <table class="bronline-footer__content" border="0" width="100%" cellpadding="0"
+                                cellspacing="0" align="center" width="100%"
+                                style="color: #fff; text-align: center; padding: 0 40px;">
+                                <tr>
+                                    <td valign="top">
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center"
+                                            style="padding-top: 20px; padding-bottom: 20px;">
+                                            <tr>
+                                                <td align="center" width="100%"
+                                                    style="font-family: Times, sans-serif; text-transform: uppercase; font-size: 18px; letter-spacing: 1px; color: #fff;">
+                                                    follow us
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table align="center" border="0" width="100%" cellpadding="0" cellspacing="0"
+                                            style="padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.5);">
+                                            <tr>
+                                                <td align="center" width="100%">
+                                                    <a href="https://www.facebook.com/bronline.jp/" target="_blank">
+                                                        <img src="./img/facebook.svg" alt="Facebook" width="60"
+                                                            class="bronline-footer__social">
+                                                    </a>
+                                                    <a href="https://twitter.com/bronlinejp" target="_blank">
+                                                        <img src="./img/twitter.svg" alt="Twitter" width="60"
+                                                            class="bronline-footer__social">
+                                                    </a>
+                                                    <a href="https://www.instagram.com/b.r.online/" target="_blank"
+                                                        style="margin: 0 -5px;">
+                                                        <img src="./img/instagram.svg" alt="Instagram" width="60"
+                                                            class="bronline-footer__social">
+                                                    </a>
+                                                    <a href="https://www.youtube.com/channel/UCUWtuyVjeMQygQiy3adHb1g"
+                                                        target="_blank">
+                                                        <img src="./img/youtube.svg" alt="Youtube" width="60"
+                                                            class="bronline-footer__social">
+                                                    </a>
+                                                    <a href="https://line.me/R/ti/p/%40bpq1979a" target="_blank">
+                                                        <img src="./img/line.svg" alt="Line" width="60"
+                                                            class="bronline-footer__social">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <table align="center" border="0" width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>
+                                                    <table align="center" border="0" width="100%" cellpadding="0"
+                                                        cellspacing="0">
+                                                        <tr>
+                                                            <td width="30%" align="right" valign="top"
+                                                                style="padding-top: 20px; font-size: 11px; font-weight: 300;line-height: 2.4;">
+                                                                <a href="#" target="_blank"
+                                                                    style="color: #fff; text-decoration: underline;">
+                                                                    メールアドレス変更
+                                                                </a>
+                                                            </td>
+
+                                                            <td width="10%" align="center"
+                                                                style="padding-top: 20px; font-size: 11px; font-weight: 300;line-height: 2.4;"
+                                                                class="bronline-footer__subscribe">
+                                                                <a href="#" target="_blank" style="color: #fff;">
+                                                                    /&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                                                        style="text-decoration: underline;">購読停止</span>&nbsp;&nbsp;&nbsp;&nbsp;/
+                                                                </a>
+                                                            </td>
+
+                                                            <td width="30%" align="left"
+                                                                style="padding-top: 20px; font-size: 11px; font-weight: 300;line-height: 2.4;">
+                                                                <a href="#" target="_blank"
+                                                                    style="color: #fff; text-decoration: underline">
+                                                                    お問い合わせ
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table align="center" border="0" width="100%" cellpadding="0"
+                                                        cellspacing="0"
+                                                        style="font-size: 11px; font-weight: 300;line-height: 2.4; color: #fff; padding-top: 20px;">
+                                                        <tr>
+                                                            <td align="center" valign="middle"
+                                                                style="padding: 0; line-height: 1.5">
+                                                                このメールは、メールマガジンを<br
+                                                                    class="bronline-onlysp" />ご登録頂いているお客様に配信しています。
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="middle"
+                                                                style="padding: 0; line-height: 2">
+                                                                また、このメールは送信専用アドレスから配信されています。<br
+                                                                    class="bronline-onlysp" />ご返信いただいてもお答えできませんので、ご了承ください。
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table align="center" border="0" width="100%" cellpadding="0"
+                                                        cellspacing="0"
+                                                        style="font-size: 11px; font-weight: 300;line-height: 2.4; color: #fff; padding-top: 20px;">
+                                                        <tr>
+                                                            <td align="center" valign="middle"
+                                                                style="padding: 0; line-height: 1.5">
+                                                                配信元： 株式会社 B.R.T
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="middle"
+                                                                style="padding: 0; line-height: 1.5">
+                                                                東京都渋谷区神宮前3-35-16
+                                                                ルナーハウスパート4ビル 4F
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table align="center" border="0" width="100%" cellpadding="0"
+                                                        cellspacing="0"
+                                                        style="font-size: 10px; font-weight: 300; color: #a2a3b2; padding-top: 20px; padding-bottom: 20px;">
+                                                        <tr>
+                                                            <td align="center" valign="middle">
+                                                                2022 © B.R.ONLINE All rights reserved.
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- end footer -->
+            </td>
+        </tr>
+    </table>
+    <!-- wrapper -->
+
+</body>
+
+</html>
