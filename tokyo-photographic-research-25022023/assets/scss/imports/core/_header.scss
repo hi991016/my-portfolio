@@ -1,0 +1,154 @@
+/* Header
+------------------------------------------------------------*/
+
+.c-header {
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    mix-blend-mode: difference;
+    filter: invert(1);
+    z-index: 1000;
+  }
+
+  &__logo {
+    svg {
+      display: block;
+      width: 690px;
+      height: 223.88px;
+      transition: 0.5s;
+
+      @include maxW(1023px) {
+        width: 289px;
+        height: 93.77px;
+      }
+    }
+
+    &.is-scale {
+      svg {
+        width: 261.97px;
+        height: 85px;
+
+        @include maxW(1023px) {
+          width: 200.33px;
+          height: 65px;
+        }
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  &__lang {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    display: none;
+
+    span {
+      opacity: 0.3;
+    }
+
+    p {
+      opacity: 0.3;
+      cursor: pointer;
+
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 0 15px;
+    z-index: 999;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: all;
+    }
+  }
+
+  &__top {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $black-cl;
+
+    @include mid(false);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  &__nav {
+    a {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__copyright {
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 15px;
+  }
+
+  &__social {
+    font-size: 1.6rem;
+    line-height: 1.4;
+
+    span {
+      margin: 12px 0;
+      display: block;
+      width: 13px;
+      height: 2px;
+      background-color: $black-cl;
+    }
+  }
+
+  &__icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: $black-cl;
+    border: 1px solid $black-cl;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &.active {
+      background-color: $white-cl;
+    }
+  }
+
+  &__mail {
+    cursor: pointer;
+  }
+}
